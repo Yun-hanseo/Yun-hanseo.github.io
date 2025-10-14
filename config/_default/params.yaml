@@ -6,6 +6,8 @@
 # Appearance
 
 appearance:
+  custom_css:
+    - css/custom.css
   theme_day: forest
   theme_night: black
   font: lato
