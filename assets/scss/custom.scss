@@ -1,24 +1,18 @@
 // ======================================================================
 // Custom SCSS built ONLY with theme-research-group default Bootstrap system
 // ======================================================================
-
-// HugoBlox/theme-research-group 테마는 blox-bootstrap (Bootstrap5 기반)을 사용.
-// 따라서 아래의 Bootstrap 변수($primary, $gray-100 등)를 그대로 활용 가능.
-
-// 테마 내부의 색상 변수 불러오기
-@import "blox-bootstrap/functions";
-@import "blox-bootstrap/variables";
-@import "blox-bootstrap/mixins";
+// ⚠️ import 제거 — 테마가 이미 blox-bootstrap 함수를 내부적으로 불러옴
+// 따라서 변수($primary, $secondary 등) 바로 사용 가능
 
 // -------------------------------------------------------------
 // 1️⃣ 기본 버튼 hover 색상 수정
 // -------------------------------------------------------------
 .btn {
-  @include transition(background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease);
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
 
   &:hover {
-    background-color: $primary !important;   // 테마의 주색상
-    color: $white !important;                // 글씨는 흰색
+    background-color: $primary !important;   // 테마의 주색상 사용
+    color: $white !important;                // 글씨 흰색
   }
 }
 
@@ -26,7 +20,7 @@
 // 2️⃣ outline 버튼 hover 시 내부 색상 채워짐
 // -------------------------------------------------------------
 .btn-outline-primary:hover {
-  background-color: $primary !important;     // 기본 Bootstrap primary 색상
+  background-color: $primary !important;     // 기본 primary 색상
   border-color: $primary !important;
   color: $white !important;
 }
@@ -39,4 +33,5 @@
   border-color: darken($secondary, 5%) !important;
   color: $white !important;
 }
+
 
