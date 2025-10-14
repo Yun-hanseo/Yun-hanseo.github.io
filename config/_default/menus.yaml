@@ -12,8 +12,8 @@ main:
     url: /myproject/
     weight: 20
   - parent: 프로젝트
-    name: 깃허브 실행 프로그램
-    url: /myproject/projectgithub
+    name: 양자역학컴퓨터
+    url: /myproject/projectquantum
   - parent: 프로젝트
     name: 리눅스 계좌인출
     url: /myproject/projectlinux
