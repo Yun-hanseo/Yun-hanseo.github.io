@@ -34,12 +34,10 @@ main:
     name: 항공우주
     url : /interest/interest3_aerospace
 
-  - name: Events
-    url: event
+  - name: 취미
+    url: /like/
     weight: 40
-  - name: Publications
-    url: publication
-    weight: 50
+
   - name: 연락
     url: contact
     weight: 60
