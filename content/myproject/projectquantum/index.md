@@ -1,10 +1,19 @@
 ---
 title: "양자 컴퓨터"
-subtitle: "양자 컴퓨터의 시초부터 미래전망까지"
-date: 2025-10-01
-summary: ""
+subtitle: "양자 컴퓨터의 배경부터 미래전망까지"
+date: 2025-09-25
+summary: ''
 layout: single
+
+
 featured: true
+
+
+links:
+  - icon: github
+    icon_pack: fab
+    url: https://github.com/Yun-hanseo/Linux-menu
+
 ---
 
 ![양자컴퓨터 배경 & 핵심기술 중첩 간섭](hsprojects/quantum1.png)
