@@ -84,7 +84,7 @@ sections:
         folders:
           - myproject
     design:
-      view: card
+      view: custom_view
       columns: '2'
 
   - block: collection

@@ -7,6 +7,7 @@ layout: single
 featured: true
 show_author: false
 
+featured: true
 ---
 
 ![양자컴퓨터 배경 & 핵심기술 중첩 간섭](hsprojects/quantum1.png)
