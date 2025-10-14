@@ -1,5 +1,5 @@
 ---
-title: "game Develop"
+title: "게임개발"
 subtitle:
 date: 2025-10-13
 summary: ' '

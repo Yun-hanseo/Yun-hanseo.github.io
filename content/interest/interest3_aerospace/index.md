@@ -1,5 +1,5 @@
 ---
-title: "Aerospace"
+title: "항공우주"
 subtitle:
 date: 2025-10-13
 summary: ' '
