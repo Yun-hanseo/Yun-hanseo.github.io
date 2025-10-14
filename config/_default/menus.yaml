@@ -28,11 +28,11 @@ main:
     name: 인공지능
     url: /interest/interest1_ai
   - parent: 관심분야
-    name: 항공우주
-    url : /interest/interest2_aerospace
-  - parent: 관심분야
     name: 게임개발
-    url: /interest/interest3_gamedevelop
+    url: /interest/interest2_gamedevelop
+  - parent: 관심분야
+    name: 항공우주
+    url : /interest/interest3_aerospace
 
   - name: Events
     url: event
