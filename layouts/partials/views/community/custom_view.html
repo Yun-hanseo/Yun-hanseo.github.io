@@ -1,80 +1,87 @@
-{{/* 완전 호환 버전 (HugoBlox collection context 대응) */}}
+{{/* 완전 호환 버전 — HugoBlox collection safe */}}
 
 {{/* 
-   ⚙️ 1. 페이지 컨텍스트 가져오기
-   collection 블록에서 실행될 때는 .Pages 없음 -> .Site.RegularPages 로 대체
+  1️⃣ context 확인 및 안전한 페이지 리스트 초기화
+  - .item: 실제 콘텐츠
+  - .page: 부모 블록
 */}}
-{{ $pages := .Pages }}
-{{ if not $pages }}
-  {{ with .page }}
-    {{ $pages = .Site.RegularPages }}
-  {{ else }}
-    {{ $pages = .Site.RegularPages }}
-  {{ end }}
+
+{{ $site := "" }}
+{{ if .page }}
+  {{ $site = .page.Site }}
+{{ else if .item }}
+  {{ $site = .item.Site }}
+{{ end }}
+
+{{ $pages := slice }}
+{{ if $site }}
+  {{ $pages = $site.RegularPages }}
 {{ end }}
 
 <div class="container my-5">
   <h2 class="text-center mb-4">🚀 수행 프로젝트</h2>
 
   <div class="row row-cols-1 row-cols-md-3 g-4">
-    {{ range where $pages "Params.featured" true }}
-      {{ $entry := . }}
-      {{ $url := $entry.RelPermalink }}
-      {{ $open_in_new_tab := "" }}
-      {{ if $entry.Params.external_link }}
-        {{ $url = $entry.Params.external_link }}
-        {{ $open_in_new_tab = "target=\"_blank\" rel=\"noopener\"" }}
-      {{ end }}
+    {{ if gt (len $pages) 0 }}
+      {{ range where $pages "Params.featured" true }}
+        {{ $entry := . }}
+        {{ $url := $entry.RelPermalink }}
+        {{ $open_in_new_tab := "" }}
+        {{ if $entry.Params.external_link }}
+          {{ $url = $entry.Params.external_link }}
+          {{ $open_in_new_tab = "target=\"_blank\" rel=\"noopener\"" }}
+        {{ end }}
 
-      {{/* 썸네일 */}}
-      {{ $thumbnail := partial "blox-core/functions/get_featured_image.html" $entry }}
+        {{ $thumbnail := partial "blox-core/functions/get_featured_image.html" $entry }}
 
-      {{/* 요약 */}}
-      {{ $excerpt := "" }}
-      {{ if $entry.Params.summary }}
-        {{ $excerpt = $entry.Params.summary | markdownify | emojify }}
-      {{ else if $entry.Params.abstract }}
-        {{ $excerpt = $entry.Params.abstract | markdownify | emojify | truncate (site.Params.abstract_length | default 120) }}
-      {{ else if $entry.Summary }}
-        {{ $excerpt = $entry.Summary }}
-      {{ end }}
+        {{ $excerpt := "" }}
+        {{ if $entry.Params.summary }}
+          {{ $excerpt = $entry.Params.summary | markdownify | emojify }}
+        {{ else if $entry.Params.abstract }}
+          {{ $excerpt = $entry.Params.abstract | markdownify | emojify | truncate (site.Params.abstract_length | default 120) }}
+        {{ else if $entry.Summary }}
+          {{ $excerpt = $entry.Summary }}
+        {{ end }}
 
-      <div class="col">
-        <div class="card h-100 shadow-sm hover:shadow-lg border-0 bg-light">
-
-          {{ with $thumbnail }}
-            {{ $image_resized := .Resize "600x" }}
-            {{ if ne $image_resized.MediaType.SubType "gif" }}
-              {{ $image_resized = $image_resized.Process "webp" }}
-            {{ end }}
-            <a href="{{ $url }}" {{ $open_in_new_tab | safeHTMLAttr }}>
-              <img src="{{ $image_resized.RelPermalink }}" 
-                   class="card-img-top img-fluid" 
-                   alt="{{ $entry.Title }}" 
-                   loading="lazy">
-            </a>
-          {{ end }}
-
-          <div class="card-body text-center">
-            <h4 class="fw-bold mb-2">
-              <a href="{{ $url }}" {{ $open_in_new_tab | safeHTMLAttr }}>{{ $entry.Title | markdownify }}</a>
-            </h4>
-
-            {{ with $entry.Params.subtitle }}
-              <p class="text-muted small mb-3">{{ . }}</p>
+        <div class="col">
+          <div class="card h-100 shadow-sm hover:shadow-lg border-0 bg-light">
+            {{ with $thumbnail }}
+              {{ $image_resized := .Resize "600x" }}
+              {{ if ne $image_resized.MediaType.SubType "gif" }}
+                {{ $image_resized = $image_resized.Process "webp" }}
+              {{ end }}
+              <a href="{{ $url }}" {{ $open_in_new_tab | safeHTMLAttr }}>
+                <img src="{{ $image_resized.RelPermalink }}" 
+                     class="card-img-top img-fluid" 
+                     alt="{{ $entry.Title }}" 
+                     loading="lazy">
+              </a>
             {{ end }}
 
-            {{ with $excerpt }}
-              <p class="text-secondary">{{ . | truncate 130 }}</p>
-            {{ end }}
+            <div class="card-body text-center">
+              <h4 class="fw-bold mb-2">
+                <a href="{{ $url }}" {{ $open_in_new_tab | safeHTMLAttr }}>{{ $entry.Title | markdownify }}</a>
+              </h4>
 
-            <a href="{{ $url }}" class="btn btn-outline-primary mt-2">자세히 보기</a>
+              {{ with $entry.Params.subtitle }}
+                <p class="text-muted small mb-3">{{ . }}</p>
+              {{ end }}
+
+              {{ with $excerpt }}
+                <p class="text-secondary">{{ . | truncate 130 }}</p>
+              {{ end }}
+
+              <a href="{{ $url }}" class="btn btn-outline-primary mt-2">자세히 보기</a>
+            </div>
           </div>
         </div>
-      </div>
+      {{ end }}
+    {{ else }}
+      <p class="text-center text-muted">표시할 featured 프로젝트가 없습니다.</p>
     {{ end }}
   </div>
 </div>
+
 
 
 
