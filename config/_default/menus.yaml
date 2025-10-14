@@ -4,8 +4,8 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Tour
-    url: tour
+  - name: 소개
+    url: /author/윤한서
     weight: 10
   - name: News
     url: post
