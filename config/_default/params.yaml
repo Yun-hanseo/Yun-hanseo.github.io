@@ -6,12 +6,12 @@
 # Appearance
 
 appearance:
-  custom_css:
-    - css/custom.css
   theme_day: forest
   theme_night: black
   font: lato
   font_size: M
+  custom_css:
+    - css/custom.css
 
 # SEO
 marketing:
