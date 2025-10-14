@@ -1,9 +1,16 @@
-{{/* community/custom_view.html — 안전 버전 (Pages nil 대응) */}}
+{{/* 완전 호환 버전 (HugoBlox collection context 대응) */}}
 
-{{/* 페이지 리스트 가져오기 (collection context 대응) */}}
+{{/* 
+   ⚙️ 1. 페이지 컨텍스트 가져오기
+   collection 블록에서 실행될 때는 .Pages 없음 -> .Site.RegularPages 로 대체
+*/}}
 {{ $pages := .Pages }}
 {{ if not $pages }}
-  {{ $pages = .Site.RegularPages }}
+  {{ with .page }}
+    {{ $pages = .Site.RegularPages }}
+  {{ else }}
+    {{ $pages = .Site.RegularPages }}
+  {{ end }}
 {{ end }}
 
 <div class="container my-5">
@@ -19,10 +26,10 @@
         {{ $open_in_new_tab = "target=\"_blank\" rel=\"noopener\"" }}
       {{ end }}
 
-      {{/* HugoBlox 기본 썸네일 함수 사용 */}}
+      {{/* 썸네일 */}}
       {{ $thumbnail := partial "blox-core/functions/get_featured_image.html" $entry }}
 
-      {{/* 요약 (summary / abstract / 자동 생성) */}}
+      {{/* 요약 */}}
       {{ $excerpt := "" }}
       {{ if $entry.Params.summary }}
         {{ $excerpt = $entry.Params.summary | markdownify | emojify }}
@@ -40,7 +47,7 @@
             {{ if ne $image_resized.MediaType.SubType "gif" }}
               {{ $image_resized = $image_resized.Process "webp" }}
             {{ end }}
-            <a href="{{ $url }}" {{ $open_in_new_tab | safeHTMLAttr }} class="overlay-hover">
+            <a href="{{ $url }}" {{ $open_in_new_tab | safeHTMLAttr }}>
               <img src="{{ $image_resized.RelPermalink }}" 
                    class="card-img-top img-fluid" 
                    alt="{{ $entry.Title }}" 
@@ -68,6 +75,7 @@
     {{ end }}
   </div>
 </div>
+
 
 
 
