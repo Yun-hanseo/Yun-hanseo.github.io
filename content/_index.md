@@ -103,13 +103,19 @@ sections:
       view: card
       columns: '2'
 
-
-  - block: markdown
+  - block: collection
+    id: section-5
     content:
-      title:
+      title: like
       subtitle:
-      text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+      text:
+      count: 3
+      offset: 0
+      order: desc
+      filters:
+        folders:
+          - like
     design:
-      columns: '1'
+      view: card
+      columns: '2'
 ---
