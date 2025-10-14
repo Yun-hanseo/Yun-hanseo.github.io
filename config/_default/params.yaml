@@ -11,7 +11,7 @@ appearance:
   font: lato
   font_size: M
   custom_css:
-    - css/custom.css
+    - scss/custom.scss
 
 # SEO
 marketing:
