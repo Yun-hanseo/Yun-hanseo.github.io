@@ -1,0 +1,79 @@
+{{/* ---------------------------------------------------------
+   custom_card1.html 
+   theme-research-group 기반의 프로젝트 카드 커스텀 뷰
+---------------------------------------------------------- */}}
+
+{{ $pages := .Pages }}
+{{ if not $pages }}
+  {{ $pages = .Site.RegularPages }}
+{{ end }}
+
+<div class="card-grid-container container my-5">
+  <h2 class="text-center mb-4">🚀 수행 프로젝트</h2>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    {{ range where $pages "Params.featured" true }}
+      {{ $entry := . }}
+      {{ $url := $entry.RelPermalink }}
+      {{ $open_in_new_tab := "" }}
+      {{ if $entry.Params.external_link }}
+        {{ $url = $entry.Params.external_link }}
+        {{ $open_in_new_tab = "target=\"_blank\" rel=\"noopener\"" }}
+      {{ end }}
+
+      {{/* 썸네일 이미지 처리 (theme 내장 함수 사용) */}}
+      {{ $thumbnail := partial "blox-core/functions/get_featured_image.html" $entry }}
+
+      {{/* 요약 정보 처리 */}}
+      {{ $excerpt := "" }}
+      {{ if $entry.Params.summary }}
+        {{ $excerpt = $entry.Params.summary | markdownify | emojify }}
+      {{ else if $entry.Params.abstract }}
+        {{ $excerpt = $entry.Params.abstract | markdownify | emojify | truncate (site.Params.abstract_length | default 120) }}
+      {{ else if $entry.Summary }}
+        {{ $excerpt = $entry.Summary }}
+      {{ end }}
+
+      <div class="col">
+        <div class="card h-100 shadow-sm hover:shadow-lg border-0 bg-light">
+
+          {{ with $thumbnail }}
+            {{ $image_resized := .Resize "600x" }}
+            {{ if ne $image_resized.MediaType.SubType "gif" }}{{ $image_resized = $image_resized.Process "webp" }}{{ end }}
+            <a href="{{ $url }}" {{ $open_in_new_tab | safeHTMLAttr }} class="overlay-hover">
+              <img src="{{ $image_resized.RelPermalink }}" 
+                   class="card-img-top img-fluid" 
+                   alt="{{ $entry.Title }}" 
+                   loading="lazy">
+            </a>
+          {{ end }}
+
+          <div class="card-body text-center">
+            <h4 class="fw-bold mb-2">
+              <a href="{{ $url }}" {{ $open_in_new_tab | safeHTMLAttr }}>{{ $entry.Title | markdownify }}</a>
+            </h4>
+
+            {{ with $entry.Params.subtitle }}
+              <p class="text-muted small mb-3">{{ . }}</p>
+            {{ end }}
+
+            {{ with $excerpt }}
+              <p class="text-secondary">{{ . | truncate 130 }}</p>
+            {{ end }}
+
+            <a href="{{ $url }}" class="btn btn-outline-primary mt-2">자세히 보기</a>
+          </div>
+
+          <div class="card-footer text-muted small text-center">
+            {{ if $entry.Date }}
+              {{ $entry.Date.Format "Jan 2, 2006" }}
+            {{ end }}
+          </div>
+
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</div>
+
+

@@ -84,7 +84,7 @@ sections:
         folders:
           - myproject
     design:
-      view: custom_view
+      view: community/custom_view
       columns: '2'
 
   - block: collection

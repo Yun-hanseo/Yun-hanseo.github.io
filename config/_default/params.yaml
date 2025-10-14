@@ -10,8 +10,6 @@ appearance:
   theme_night: black
   font: lato
   font_size: M
-  custom_css:
-    - css/custom.scss
 
 # SEO
 marketing:
