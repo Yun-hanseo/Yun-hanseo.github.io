@@ -37,6 +37,15 @@ main:
   - name: 취미
     url: /like/
     weight: 40
+  - parent: 취미
+    name: 독서
+    url: /like/read/
+  - parent: 취미
+    name: 사진
+    url: /like/picture/
+  - parent: 취미
+    name: 그림
+    url: /like/drawing/
 
   - name: 연락
     url: contact
