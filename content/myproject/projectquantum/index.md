@@ -4,6 +4,7 @@ subtitle: "양자 컴퓨터의 배경부터 미래전망까지"
 date: 2025-09-25
 summary: ''
 layout: single
+type: myproject
 featured: true
 ---
 
