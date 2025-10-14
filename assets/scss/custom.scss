@@ -1,34 +1,42 @@
-$gray-base: #e0e0e0;
-$gray-hover: #cfcfcf;
-$black: #000;
-$white: #fff;
+// ======================================================================
+// Custom SCSS built ONLY with theme-research-group default Bootstrap system
+// ======================================================================
 
+// HugoBlox/theme-research-group 테마는 blox-bootstrap (Bootstrap5 기반)을 사용.
+// 따라서 아래의 Bootstrap 변수($primary, $gray-100 등)를 그대로 활용 가능.
+
+// 테마 내부의 색상 변수 불러오기
+@import "blox-bootstrap/functions";
+@import "blox-bootstrap/variables";
+@import "blox-bootstrap/mixins";
+
+// -------------------------------------------------------------
+// 1️⃣ 기본 버튼 hover 색상 수정
+// -------------------------------------------------------------
 .btn {
-  display: inline-block;
-  padding: 0.6em 1.2em;
-  border-radius: 8px;
-  font-weight: 500;
-  text-align: center;
-  text-decoration: none;
-  border: 1px solid transparent;
-  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  @include transition(background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease);
 
   &:hover {
-    background-color: $black;
-    border-color: $black;
-    color: $white;
+    background-color: $primary !important;   // 테마의 주색상
+    color: $white !important;                // 글씨는 흰색
   }
 }
 
-.btn-gray {
-  background-color: $gray-base;
-  border-color: darken($gray-base, 5%);
-  color: $black;
-
-  &:hover {
-    background-color: $gray-hover;
-    border-color: darken($gray-hover, 10%);
-    color: $black;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
-  }
+// -------------------------------------------------------------
+// 2️⃣ outline 버튼 hover 시 내부 색상 채워짐
+// -------------------------------------------------------------
+.btn-outline-primary:hover {
+  background-color: $primary !important;     // 기본 Bootstrap primary 색상
+  border-color: $primary !important;
+  color: $white !important;
 }
+
+// -------------------------------------------------------------
+// 3️⃣ secondary 버튼 hover 시 조금 더 어두운 회색으로
+// -------------------------------------------------------------
+.btn-secondary:hover {
+  background-color: darken($secondary, 5%) !important;
+  border-color: darken($secondary, 5%) !important;
+  color: $white !important;
+}
+
