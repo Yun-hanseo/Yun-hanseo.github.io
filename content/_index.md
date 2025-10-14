@@ -39,7 +39,7 @@ sections:
           position: center
           color: '#666'
       - title: 게임개발
-        content: '사용자들에게 더 좋고 더 나은 앱/웹 개발'
+        content: '사용자들에게 즐거움을 주는 게임'
         align: center
         background:
           image:
@@ -60,57 +60,49 @@ sections:
       interval: 3000
       css_class: "mt-0 pt-0 pb-6"
   
-  - block: collection
+  - block: features
+    id: section-2
     content:
-      title: Latest News
-      subtitle:
+      title: ""
+      text: >
+        <span style="font-size:115%">
+        안녕하세요 😊 **전북대학교 컴퓨터인공지능학부** 2학년에 재학중인 윤한서입니다. 인공지능, 항공우주, 게임개발 분야에 매료되어 끊임없이 연구중입니다 !
+        </span>
+    design:
+      css_class: "text-center py-10"
+  
+  - block: collection
+    id: section-3
+    content:
+      title: 수행 프로젝트
+      subtitle: 
       text:
-      count: 5
-      filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
+      count: 3
       offset: 0
       order: desc
-      page_type: post
-    design:
-      view: card
-      columns: '1'
-  
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: coders.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
-
-  - block: collection
-    content:
-      title: Latest Preprints
-      text: ""
-      count: 5
       filters:
         folders:
-          - publication
-        publication_type: 'article'
+          - myproject
     design:
-      view: citation
-      columns: '1'
+      view: card
+      columns: '2'
+
+  - block: collection
+    id: section-4
+    content:
+      title: 관심분야
+      subtitle:
+      text:
+      count: 3
+      offset: 0
+      order: desc
+      filters:
+        folders:
+          - interest
+    design:
+      view: card
+      columns: '2'
+
 
   - block: markdown
     content:
