@@ -8,8 +8,8 @@
 appearance:
   theme_day: apogee
   theme_night: dark
-  font: native
-  font_size: L
+  font: poppins
+  font_size: M
 
 # SEO
 
