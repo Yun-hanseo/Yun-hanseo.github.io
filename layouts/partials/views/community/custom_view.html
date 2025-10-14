@@ -1,14 +1,12 @@
-{{/* ---------------------------------------------------------
-   custom_card1.html 
-   theme-research-group 기반의 프로젝트 카드 커스텀 뷰
----------------------------------------------------------- */}}
+{{/* community/custom_view.html — 안전 버전 (Pages nil 대응) */}}
 
+{{/* 페이지 리스트 가져오기 (collection context 대응) */}}
 {{ $pages := .Pages }}
 {{ if not $pages }}
   {{ $pages = .Site.RegularPages }}
 {{ end }}
 
-<div class="card-grid-container container my-5">
+<div class="container my-5">
   <h2 class="text-center mb-4">🚀 수행 프로젝트</h2>
 
   <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -21,10 +19,10 @@
         {{ $open_in_new_tab = "target=\"_blank\" rel=\"noopener\"" }}
       {{ end }}
 
-      {{/* 썸네일 이미지 처리 (theme 내장 함수 사용) */}}
+      {{/* HugoBlox 기본 썸네일 함수 사용 */}}
       {{ $thumbnail := partial "blox-core/functions/get_featured_image.html" $entry }}
 
-      {{/* 요약 정보 처리 */}}
+      {{/* 요약 (summary / abstract / 자동 생성) */}}
       {{ $excerpt := "" }}
       {{ if $entry.Params.summary }}
         {{ $excerpt = $entry.Params.summary | markdownify | emojify }}
@@ -39,7 +37,9 @@
 
           {{ with $thumbnail }}
             {{ $image_resized := .Resize "600x" }}
-            {{ if ne $image_resized.MediaType.SubType "gif" }}{{ $image_resized = $image_resized.Process "webp" }}{{ end }}
+            {{ if ne $image_resized.MediaType.SubType "gif" }}
+              {{ $image_resized = $image_resized.Process "webp" }}
+            {{ end }}
             <a href="{{ $url }}" {{ $open_in_new_tab | safeHTMLAttr }} class="overlay-hover">
               <img src="{{ $image_resized.RelPermalink }}" 
                    class="card-img-top img-fluid" 
@@ -63,17 +63,11 @@
 
             <a href="{{ $url }}" class="btn btn-outline-primary mt-2">자세히 보기</a>
           </div>
-
-          <div class="card-footer text-muted small text-center">
-            {{ if $entry.Date }}
-              {{ $entry.Date.Format "Jan 2, 2006" }}
-            {{ end }}
-          </div>
-
         </div>
       </div>
     {{ end }}
   </div>
 </div>
+
 
 
