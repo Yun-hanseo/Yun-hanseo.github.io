@@ -7,9 +7,20 @@ main:
   - name: 소개
     url: /author/윤한서
     weight: 10
-  - name: News
-    url: post
+
+  - name: 프로젝트
+    url: /myproject/
     weight: 20
+  - parent: 프로젝트
+    name: 깃허브 실행 프로그램
+    url: /myproject/projectgithub
+  - parent: 프로젝트
+    name: 리눅스 계좌인출
+    url: /myproject/projectlinux
+  - parent: 프로젝트
+    name: 홈페이지 만들기
+    url: /myproject/projecthomepage/
+
   - name: People
     url: people
     weight: 30
@@ -19,6 +30,6 @@ main:
   - name: Publications
     url: publication
     weight: 50
-  - name: Contact
+  - name: 연락
     url: contact
     weight: 60
