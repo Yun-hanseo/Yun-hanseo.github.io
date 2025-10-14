@@ -21,9 +21,19 @@ main:
     name: 홈페이지 만들기
     url: /myproject/projecthomepage/
 
-  - name: People
-    url: people
+  - name: 관심분야
+    url: /intrest/
     weight: 30
+  - parent: 관심분야
+    name: 인공지능
+    url: /interest/interest1_ai
+  - parent: 관심분야
+    name: 항공우주
+    url : /interest/interest2_aerospace
+  - parent: 관심분야
+    name: 게임개발
+    url: /interest/interest3_gamedevelop
+
   - name: Events
     url: event
     weight: 40
