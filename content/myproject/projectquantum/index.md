@@ -5,7 +5,6 @@ date: 2025-10-01
 summary: ""
 layout: single
 featured: true
-show_author: false
 ---
 
 ![양자컴퓨터 배경 & 핵심기술 중첩 간섭](hsprojects/quantum1.png)

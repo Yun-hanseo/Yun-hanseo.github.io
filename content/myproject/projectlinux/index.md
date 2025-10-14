@@ -5,7 +5,6 @@ date: 2025-09-25
 summary: "리눅스 환경에서 사칙연산과 괄호 연산을 수행하는 콘솔 프로그램"
 layout: single
 featured: true
-show_author: false
 
 links:
   - icon: github
