@@ -6,13 +6,12 @@
 # Appearance
 
 appearance:
-  theme_day: apogee
-  theme_night: dark
-  font: poppins
+  theme_day: mint
+  theme_night: apogee
+  font: lato
   font_size: M
 
 # SEO
-
 marketing:
   seo:
     site_type: Organization
