@@ -6,8 +6,8 @@
 # Appearance
 
 appearance:
-  theme_day: mint
-  theme_night: apogee
+  theme_day: ocean
+  theme_night: black
   font: lato
   font_size: M
 
