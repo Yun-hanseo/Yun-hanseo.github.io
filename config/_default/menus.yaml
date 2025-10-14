@@ -14,39 +14,48 @@ main:
   - parent: 프로젝트
     name: 양자역학컴퓨터
     url: /myproject/projectquantum
+    weight: 30
   - parent: 프로젝트
     name: 리눅스 계좌인출
     url: /myproject/projectlinux
+    weight: 40
   - parent: 프로젝트
     name: 홈페이지 만들기
     url: /myproject/projecthomepage/
+    weight: 50
 
   - name: 관심분야
     url: /intrest/
-    weight: 30
+    weight: 60
   - parent: 관심분야
     name: 인공지능
     url: /interest/interest1_ai
+    weight: 70
   - parent: 관심분야
     name: 게임개발
     url: /interest/interest2_gamedevelop
+    weight: 80
   - parent: 관심분야
     name: 항공우주
     url : /interest/interest3_aerospace
+    weight: 90
 
   - name: 취미
     url: /like/
-    weight: 40
+    weight: 100
   - parent: 취미
     name: 독서
     url: /like/read/
+    weight: 110
   - parent: 취미
     name: 사진
     url: /like/picture/
+    weight: 120
   - parent: 취미
     name: 그림
     url: /like/drawing/
+    weight: 130
 
   - name: 연락
     url: contact
-    weight: 60
+    weight: 140
