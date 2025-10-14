@@ -3,13 +3,7 @@
 }
 
 .btn-primary:hover {
-  background-color: #48d1cc !important;
-  border-color: #48d1cc !important;
+  background-color: #000 !important;
+  border-color: #000 !important;
   color: #fff !important;
-}
-
-.btn-outline-primary:hover {
-  background-color: #48d1cc !important;
-  border-color: #48d1cc !important;
-  color: white !important;
 }
