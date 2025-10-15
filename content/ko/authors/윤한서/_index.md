@@ -65,12 +65,9 @@ social:
 #   icon_pack: ai
 #   link: files/cv.pdf
 
-  - block: markdown
-    content: 
-      title:
-      subtitle:
-      text: |
-        {{% cta cta_link="/files/" cta_text="이력서 다운로드" %}}
+resume:
+  linke: "/files/resume.pdf"
+  text: "📄 이력서 다운로드" 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: 'woohaha22@jbnu.ac.kr'
 
@@ -91,3 +88,5 @@ highlight_name: true
 또한 항공우주(Aerospace) 분야에 대해서는 기술적 한계를 넘어 새로운 세계를 개척하려는 인간의 도전에 매력을 느낍니다. 인공지능 기술을 항공 및 우주 시스템에 접목시켜, 자율비행, 우주 탐사, 항공 데이터 분석 등 미래 지향적 연구를 수행하고 싶다는 꿈을 가지고 있습니다.
 
 마지막으로 소프트웨어 개발(Development) 은 제 열정의 기반입니다. 단순히 코드를 작성하는 것에서 그치지 않고, 사용자의 경험을 중심에 두고 더 나은 서비스를 만들어내는 과정에 깊은 흥미를 느낍니다. 프론트엔드와 백엔드를 아우르는 풀스택 개발은 물론, 인공지능 모델을 실제 서비스에 적용하고 AI 기반 어플리케이션을 개발·배포(Deploy) 하는 전 과정을 직접 다루는 것을 목표로 하고 있습니다.
+
+{{% cta cta_link="{{< param "resume.link" >}}" cta_text="{{< param "resume.text" >}}" %}}
