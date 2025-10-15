@@ -3,7 +3,7 @@
   <div class="rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300 bg-white dark:bg-gray-900">
     {{ with .Params.image.filename }}
 <a href="{{ $.RelPermalink }}">
- <img src="{{ 'media/' | relURL }}{{ . }}" alt="{{ $.Title }}" class="w-full h-56 object-cover">
+  <img src="{{ `media/` | relURL }}{{ . }}" alt="{{ $.Title }}" class="w-full h-56 object-cover">
 </a>
 {{ end }}
 
