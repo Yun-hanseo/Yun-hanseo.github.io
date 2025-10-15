@@ -8,7 +8,7 @@ type: myproject
 featured: true
 
 image:
-  caption: featured.jpg
+  filename: github.jpg
 
 links:
   - icon: github

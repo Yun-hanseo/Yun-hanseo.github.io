@@ -8,7 +8,7 @@ type: myproject
 featured: true
 
 image:
-  caption: featured.jpg
+  filename: quantum.jpg
 ---
 
 ![양자컴퓨터 배경 & 핵심기술 중첩 간섭](hsprojects/quantum1.png)
