@@ -71,8 +71,24 @@ sections:
     design:
       css_class: "text-center py-10"
   
+
   - block: collection
     id: section-3
+    content:
+      title: "수행한 프로젝트들"
+      text: "저의 수행한 프로젝트들을 볼 수 있습니다."
+      count: 3
+      offset: 0
+      order: desc
+      filters:
+        folders:
+          - myproject
+    design:
+      view: community/custom_view
+      columns: '3'
+
+  - block: collection
+    id: section-4
     content:
       title: 관심분야
       subtitle: 
@@ -88,7 +104,7 @@ sections:
       columns: '3'
 
   - block: collection
-    id: section-4
+    id: section-5
     content:
       title: like
       subtitle:
@@ -101,5 +117,5 @@ sections:
           - like
     design:
       view: card
-      columns: '2'
+      columns: '3'
 ---
