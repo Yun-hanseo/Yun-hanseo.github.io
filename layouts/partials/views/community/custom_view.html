@@ -1,30 +1,11 @@
-{{ range .Items }}
-  <a href="{{ .RelPermalink }}" class="group block bg-white dark:bg-gray-800 rounded-2xl shadow hover:shadow-lg transition duration-300 overflow-hidden">
-    {{ with .Params.image.filename }}
-    <div class="relative h-48 w-full overflow-hidden">
-      <img src="{{ . | relURL }}" alt="{{ $.Title }}" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-      <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
-        <p class="text-white text-sm font-medium">자세히 보기</p>
-      </div>
-    </div>
-    {{ end }}
+<div class="card my-custom-card">
+  <div class="card-body">
+    <h5 class="card-title">{{ .Title }}</h5>
+    <p class="card-text">{{ .Summary | plainify | safeHTML }}</p>
+    <a href="{{ .Permalink }}" class="card-link">자세히 보기</a>
+  </div>
+</div>
 
-    <div class="p-5">
-      <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-1 group-hover:text-blue-500 transition">
-        {{ .Title }}
-      </h3>
-      {{ with .Params.subtitle }}
-      <p class="text-sm text-gray-500 mb-2">{{ . }}</p>
-      {{ end }}
-      {{ with .Params.summary }}
-      <p class="text-gray-700 dark:text-gray-300 text-sm line-clamp-3">{{ . }}</p>
-      {{ end }}
-      {{ with .Date }}
-      <p class="text-xs text-gray-400 mt-3">{{ . | time.Format "2006-01-02" }}</p>
-      {{ end }}
-    </div>
-  </a>
-{{ end }}
 
 
 

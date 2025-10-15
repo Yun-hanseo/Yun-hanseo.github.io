@@ -81,7 +81,7 @@ sections:
       offset: 0
       order: desc
       filters:
-        types:
+        folders:
           - myproject
     design:
       view: community/custom_view
