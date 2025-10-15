@@ -17,45 +17,44 @@ links:
     url: https://yun-hanseo.github.io/
 ---
 
+<br><br>
+-------------------------------------------------
 ![메인페이지](hsprojects/mainpage.png)
 **▲메인페이지**
 메인 홈페이지 
 
 <br><br>
-
+-------------------------------------------------
 ![소개](hsprojects/introduceme.png)
 **▲소개페이지**
 자신을 소개하는 페이지입니다.
 
 <br><br>
 
+-------------------------------------------------
 ![프로젝트](hsprojects/project1.png) 
-**▲프로젝트 1.리눅스 계좌인출프로그램 소개** 
-리눅스 프로그램으로 만든 계좌인출 프로그램을 소개한다.
  ![프로젝트](hsprojects/project2.png)
-**▲프로젝트 2.포트폴리오 홈페이지 소개**
-포트폴리오 홈페이지를 소개한다. 
-![프로젝트](hsprojects/project3.png) 
-**▲프로젝트 3.양자컴퓨터 레포트 소개** 
-양자컴퓨터에대해 조사한 내용을 소개한다. 
+![프로젝트](hsprojects/project3.png)  
+ **▲프로젝트** 수행한 프로젝트들을 보여준다.
 
 <br><br>
 
-![관심분야](hsprojects/interestai.png) 
-**▲관심분야 1.인공지능** 관심분야에 대해 설명한다. 
+------------------------------------------------
+![관심분야](hsprojects/interestai.png)  
 ![관심분야](hsprojects/interestgame.png) 
-**▲관심분야 2.게임개발** 관심분야에 대해 설명한다. 
 ![관심분야](hsprojects/interestaerospace.png) 
-**▲관심분야 1.항공우주** 관심분야에 대해 설명한다. 
+**▲관심분야** 인공지능,항공우주,항공우주에 대한 흥미를 보여준다. 
 
 <br><br>
 
+----------------------------------------------
 ![▲ 취미 1. 독서](hsprojects/hobbiread.png) 
-![▲ 취미 1. 사진](hsprojects/hobbiepicture.png)  
-![▲ 취미 1. 그림](hsprojects/hobbidraw.png) 
+![▲ 취미 2. 사진](hsprojects/hobbiepicture.png)  
+![▲ 취미 3. 그림](hsprojects/hobbidraw.png) 
+**▲취미** 독서,사진,그림을 보여준다. 
 
 <br><br>
-
+----------------------------------------------
 ![연락](hsprojects/contactme.png)
 **▲연락**
 연락하는 방법에 대해 설명한다.
