@@ -9,7 +9,6 @@ featured: true
 
 image:
   filename: featured.jpg
-  preivew_only: false
 ---
 
 ![양자컴퓨터 배경 & 핵심기술 중첩 간섭](hsprojects/quantum1.png)
