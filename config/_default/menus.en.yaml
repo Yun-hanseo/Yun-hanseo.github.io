@@ -9,48 +9,48 @@ main:
   - parent: Projects
     name: Quantum computer
     url: /myproject/projectquantum
-    weight: 30
+    weight: 21
   - parent: Projects
     name: Linux Account Withdrawal
     url: /myproject/projectlinux
-    weight: 40
+    weight: 22
   - parent: Projects
     name: Creating a Homepage
     url: /myproject/projecthomepage/
-    weight: 50
+    weight: 23
 
   - name: Interest
     url: /intrest/
-    weight: 60
+    weight: 30
   - parent: Interest
     name: AI
     url: /interest/interest1_ai
-    weight: 70
+    weight: 31
   - parent: Interest
     name: Game Development
     url: /interest/interest2_gamedevelop
-    weight: 80
+    weight: 32
   - parent: Interest
     name: Aerospace
     url : /interest/interest3_aerospace
-    weight: 90
+    weight: 33
 
   - name: Hobbies
     url: /like/
-    weight: 100
+    weight: 40
   - parent: Hobbies
     name: Reading
     url: /like/read/
-    weight: 110
+    weight: 41
   - parent: Hobbies
     name: Photography
     url: /like/picture/
-    weight: 120
+    weight: 42
   - parent: Hobbies
     name: Drawing
     url: /like/drawing/
-    weight: 130
+    weight: 43
 
   - name: Contact
     url: contact
-    weight: 140
+    weight: 50
