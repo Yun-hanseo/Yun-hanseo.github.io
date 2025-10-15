@@ -1,14 +1,14 @@
 ---
 title: "항공우주"
-subtitle:
+subtitle: ""
 date: 2025-10-13
-summary: ' '
+summary: ""
 type: interest
 layout: single
 show_author: false
 
 image:
-  caption: 'Image creadit: [**Unsplash**](https://unsplash.com) 
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 
 ---
 
