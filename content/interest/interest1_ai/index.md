@@ -8,13 +8,10 @@ layout: single
 show_author: false
 
 image:
-  filename: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80"
-  caption: "Artificial Intelligence Concept - Unsplash"
+  caption: 'Image creadit: [**Unsplash**](https://unsplash.com) 
 
 ---
 
-![AI Neural Network](https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80)
-**▲ AI의 신경망 구조를 형상화한 이미지**
 
 제 관심분야중 하나는 인공지능(AI)입니다.
 인간의 사고를 모방하고, 더 나아가 이를 확장할 수 있는 지능형 시스템을 구현하는 과정에 큰 관심을 가지고 있습니다. 
