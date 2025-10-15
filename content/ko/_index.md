@@ -65,7 +65,22 @@ sections:
         </span>
     design:
       css_class: "text-center py-10"
-  
+
+  - block: markdown
+    id: section-resume
+    content:
+      title: ""
+      subtitle: ""
+      text: |
+        <p style="text-align:center;">
+          <a href="/files/resume.pdf" 
+             target="_blank" 
+             style="background-color:#007BFF; color:white; padding:10px 20px; border-radius:8px; text-decoration:none; font-weight:600;">
+             {{< icon name="download" pack="fas" >}} 이력서 다운로드 (PDF)
+          </a>
+        </p>
+    design:
+      css_class: "text-center py-6"
 
   - block: collection
     id: section-3
