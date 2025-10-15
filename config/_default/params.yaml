@@ -33,7 +33,7 @@ marketing:
 header:
   navbar:
     enable: true
-    block: r
+    block: default
     show_logo: true
     show_language: false
     show_day_night: true
