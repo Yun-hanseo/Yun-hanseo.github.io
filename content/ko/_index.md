@@ -59,19 +59,12 @@ sections:
     id: section-2
     content:
       title: ""
-      text: >
+      subtitle: ""
+      text: |
         <span style="font-size:115%">
         안녕하세요 😊 **전북대학교 컴퓨터인공지능학부** 2학년에 재학중인 윤한서입니다. 인공지능, 항공우주, 게임개발 분야에 매료되어 끊임없이 연구중입니다 !
         </span>
-    design:
-      css_class: "text-center py-10"
 
-  - block: markdown
-    id: section-resume
-    content:
-      title: ""
-      subtitle: ""
-      text: |
         <p style="text-align:center;">
           <a href="/files/resume.pdf" 
              target="_blank" 
@@ -80,7 +73,7 @@ sections:
           </a>
         </p>
     design:
-      css_class: "text-center py-6"
+      css_class: "text-center py-10"
 
   - block: collection
     id: section-3
