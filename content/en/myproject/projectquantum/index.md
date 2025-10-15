@@ -1,28 +1,31 @@
 ---
-title: "양자 컴퓨터"
-subtitle: "양자 컴퓨터의 배경부터 미래전망까지"
+title: "Quantum Computer"
+subtitle: "From the Background to the Future Prospects of Quantum Computing"
 date: 2025-09-25
-summary: ''
+summary: ""
 layout: single
 type: myproject
 featured: true
 
 image:
   filename: quantum.jpg
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
-![양자컴퓨터 배경 & 핵심기술 중첩 간섭](hsprojects/quantum1.png)
-**▲ 양자컴퓨터 배경 & 핵심기술**
-양자컴퓨터가 나오게 된 배경과 핵심기술인 중첩과 간섭에 대하여 설명하고 있습니다. 손그림을 통하여 중첩을 표현하였습니다.
+![Background & Core Technologies: Superposition and Interference](hsprojects/quantum1.png)  
+**▲ Background & Core Technologies**  
+This section explains the origins of quantum computers and their core principles — **superposition** and **interference** — illustrated through hand-drawn diagrams to visualize the concept of superposition.
 
-![핵심기술 얽힘 & 큐비트 ](hsprojects/quantum2.png)
-**▲ 핵심기술 얽힘 & 큐비트**
-양자컴퓨터의 핵심기술인 얽힘과 큐비트에 대하여 설명하고 있습니다. 이것또한 손그림을 통하여 표현하였습니다.
+![Entanglement & Qubit](hsprojects/quantum2.png)  
+**▲ Entanglement & Qubit**  
+This part describes the fundamental concepts of **entanglement** and **qubits**, which are at the heart of quantum computing.  
+The ideas are also expressed through hand-drawn illustrations.
 
-![차이점 & 미래전망 & 소감](hsprojects/quantum3.png)
-**▲ 차이점 & 미래전망 & 소감**
-일반 컴퓨터와 양자컴퓨터의 차이점을 설명하며 양자컴퓨터의 미래전망에 대하여 소개하고 있습니다. 또한 이 글을 쓰며 느낀점을 적었습니다.
+![Differences, Future Outlook & Reflection](hsprojects/quantum3.png)  
+**▲ Differences, Future Outlook & Reflection**  
+Here, the differences between classical and quantum computers are explained, along with an introduction to the future prospects of quantum computing.  
+It also includes my personal thoughts and reflections on the topic.
 
-![출처](hsprojects/quantum4.png)
-**▲ 출처**
-참고한 내용의 출처를 적었습니다
+![References](hsprojects/quantum4.png)  
+**▲ References**  
+This section lists the sources and references used for this project.

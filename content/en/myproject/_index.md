@@ -1,5 +1,5 @@
 ---
-title: "나의 프로젝트"
+title: "My projects"
 layout: community/custom_myproject
 type: myproject
 ---

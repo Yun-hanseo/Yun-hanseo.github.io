@@ -1,15 +1,15 @@
 ---
-title: "리눅스 계산 프로그램"
-subtitle: "터미널 환경에서 동작하는 C 기반 계산기"
+title: "Linux Calculator Program"
+subtitle: "A C-based calculator running in a terminal environment"
 date: 2025-09-25
-summary: "리눅스 환경에서 사칙연산과 괄호 연산을 수행하는 콘솔 프로그램"
+summary: "A console-based program that performs arithmetic and parenthesis operations in a Linux environment."
 layout: single
 type: myproject
 featured: true
 
 image:
   filename: linux.jpg
-
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 
 links:
   - icon: github
@@ -17,15 +17,15 @@ links:
     url: https://github.com/Yun-hanseo/Linux-menu
 ---
 
-![계산기 초기 화면](hsprojects/accountcreate.png)
-**▲ 계좌 만들기**
-사용자가 ID,이름,계좌정보를 입력시 입력한 내용대로 데이터베이스에 저장
+![Calculator Main Screen](hsprojects/accountcreate.png)  
+**▲ Create Account**  
+When a user enters an ID, name, and account information, the data is stored in the database accordingly.
 
-![연산 테스트](hsprojects/accountcheck.png)
-**▲ 계좌 정보 확인**
-계좌 정보 확인을위해 ID 입력 시, ID,이름,계좌정보를 출력
+![Operation Test](hsprojects/accountcheck.png)  
+**▲ Check Account Information**  
+When an ID is entered to verify account details, the program outputs the ID, name, and account information.
 
-![에러 처리](hsprojects/accountupdate.png)
-**▲ 입출금하기**
-ID 입력 후 향수값 입력 시 출금을, 음수값 입력 시 입금을 한다.
-양수값 입력 시 잔액보다 많으면 출금을 수행 하지 않는다.
+![Error Handling](hsprojects/accountupdate.png)  
+**▲ Deposit and Withdrawal**  
+After entering an ID, a **positive value** performs a withdrawal, while a **negative value** performs a deposit.  
+If the entered positive value exceeds the current balance, the withdrawal is not executed.
