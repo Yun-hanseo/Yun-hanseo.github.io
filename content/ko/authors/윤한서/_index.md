@@ -58,16 +58,19 @@ social:
   - icon: youtube
     icon_pack: fab
     link: https://www.youtube.com/@ji-lt7cm/playlists
-  - icon: file-pdf
-    icon_pack: fas
-    name: 이력서(PDF)
-    link: files/resume.pdf
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
 #   icon_pack: ai
 #   link: files/cv.pdf
 
+  - block: markdown
+    content: 
+      title:
+      subtitle:
+      text: |
+        {{% cta cta_link="/files/" cta_text="이력서 다운로드" %}}
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: 'woohaha22@jbnu.ac.kr'
 
