@@ -8,6 +8,7 @@ layout: single
 show_author: false
 
 image:
+  filename: contact.jpg
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 
 ---

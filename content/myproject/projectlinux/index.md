@@ -8,7 +8,7 @@ type: myproject
 featured: true
 
 image:
-  filename: featured.jpg
+  caption: featured.jpg
 
 
 links:
