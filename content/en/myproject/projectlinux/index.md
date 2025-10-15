@@ -18,14 +18,14 @@ links:
 ---
 
 ![Calculator Main Screen](hsprojects/accountcreate.png)  
-**▲ Create Account**  
+**▲ Create Account**<br>
 When a user enters an ID, name, and account information, the data is stored in the database accordingly.
 
 ![Operation Test](hsprojects/accountcheck.png)  
-**▲ Check Account Information**  
+**▲ Check Account Information**<br>  
 When an ID is entered to verify account details, the program outputs the ID, name, and account information.
 
 ![Error Handling](hsprojects/accountupdate.png)  
-**▲ Deposit and Withdrawal**  
+**▲ Deposit and Withdrawal**<br>  
 After entering an ID, a **positive value** performs a withdrawal, while a **negative value** performs a deposit.  
 If the entered positive value exceeds the current balance, the withdrawal is not executed.

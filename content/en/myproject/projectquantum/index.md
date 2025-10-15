@@ -17,15 +17,15 @@ image:
 This section explains the origins of quantum computers and their core principles — **superposition** and **interference** — illustrated through hand-drawn diagrams to visualize the concept of superposition.
 
 ![Entanglement & Qubit](hsprojects/quantum2.png)  
-**▲ Entanglement & Qubit**  
+**▲ Entanglement & Qubit**<br>
 This part describes the fundamental concepts of **entanglement** and **qubits**, which are at the heart of quantum computing.  
 The ideas are also expressed through hand-drawn illustrations.
 
 ![Differences, Future Outlook & Reflection](hsprojects/quantum3.png)  
-**▲ Differences, Future Outlook & Reflection**  
+**▲ Differences, Future Outlook & Reflection**<br>  
 Here, the differences between classical and quantum computers are explained, along with an introduction to the future prospects of quantum computing.  
 It also includes my personal thoughts and reflections on the topic.
 
 ![References](hsprojects/quantum4.png)  
-**▲ References**  
+**▲ References**<br>  
 This section lists the sources and references used for this project.
