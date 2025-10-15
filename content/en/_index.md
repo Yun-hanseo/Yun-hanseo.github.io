@@ -59,11 +59,19 @@ sections:
     id: section-2
     content:
       title: ""
-      text: >
-        <span style="font-size:115%">
-        Hello 😊 I'm **Hanseo Yun**, a sophomore majoring in Computer Science and Artificial Intelligence at **Jeonbuk National University**.  
-        I'm deeply fascinated by Artificial Intelligence, Aerospace, and Game Development, and I’m constantly exploring new ideas in these fields!
-        </span>
+      text: |
+        <div style="font-size:115%; text-align:center;">
+          Hello 😊 I'm **Hanseo Yun**, a sophomore majoring in Computer Science and Artificial Intelligence at **Jeonbuk National University**.  
+        I'm deeply fascinated by Artificial Intelligence, Aerospace, and Game Development, and I’m constantly exploring new ideas in these fields! ✨
+        </div>
+
+        <div style="text-align:center; margin-top:20px;">
+          <a href="/files/resume.pdf" 
+             target="_blank" 
+             style="display:inline-block; background-color:#007BFF; color:white; padding:10px 20px; border-radius:8px; text-decoration:none; font-weight:600;">
+             {{< icon name="download" pack="fas" >}} 이력서 다운로드 (PDF)
+          </a>
+        </div>
     design:
       css_class: "text-center py-10"
   
