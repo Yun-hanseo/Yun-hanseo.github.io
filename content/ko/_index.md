@@ -59,21 +59,22 @@ sections:
     id: section-2
     content:
       title: ""
-      subtitle: ""
       text: |
-        <span style="font-size:115%">
-        안녕하세요 😊 **전북대학교 컴퓨터인공지능학부** 2학년에 재학중인 윤한서입니다. 인공지능, 항공우주, 게임개발 분야에 매료되어 끊임없이 연구중입니다 !
-        </span>
+        <div style="font-size:115%; text-align:center;">
+          안녕하세요 😊 <b>전북대학교 컴퓨터인공지능학부</b> 2학년에 재학중인 윤한서입니다.<br>
+          인공지능, 항공우주, 게임개발 분야에 매료되어 끊임없이 연구중입니다 ! ✨
+        </div>
 
-        <p style="text-align:center;">
+        <div style="text-align:center; margin-top:20px;">
           <a href="/files/resume.pdf" 
              target="_blank" 
-             style="background-color:#007BFF; color:white; padding:10px 20px; border-radius:8px; text-decoration:none; font-weight:600;">
+             style="display:inline-block; background-color:#007BFF; color:white; padding:10px 20px; border-radius:8px; text-decoration:none; font-weight:600;">
              {{< icon name="download" pack="fas" >}} 이력서 다운로드 (PDF)
           </a>
-        </p>
+        </div>
     design:
       css_class: "text-center py-10"
+
 
   - block: collection
     id: section-3
