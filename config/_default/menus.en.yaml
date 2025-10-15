@@ -3,19 +3,19 @@ main:
     url: /author/Yun_Hanseo
     weight: 10
 
-  - name: 프로젝트
+  - name: Projects
     url: /myproject/
     weight: 20
-  - parent: 프로젝트
-    name: 양자역학컴퓨터
+  - parent: Projects
+    name: Quantum computer
     url: /myproject/projectquantum
     weight: 30
-  - parent: 프로젝트
-    name: 리눅스 계좌인출
+  - parent: Projects
+    name: Linux Account Withdrawal
     url: /myproject/projectlinux
     weight: 40
-  - parent: 프로젝트
-    name: 홈페이지 만들기
+  - parent: Projects
+    name: Creating a Homepage
     url: /myproject/projecthomepage/
     weight: 50
 
