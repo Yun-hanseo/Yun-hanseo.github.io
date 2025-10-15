@@ -13,7 +13,7 @@ image:
 
 ---
 
-<div style="text-align: justify;">
+<div style="text-align: justify; !important">
 항공우주는 기술적 한계를 넘어 새로운 세계를 개척하려는 인간의 도전 정신이 가장 잘 드러나는 분야라고 생각합니다.
 
 저는 이러한 도전에 AI 기술을 결합해,
