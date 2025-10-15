@@ -13,11 +13,11 @@ sections:
       email: woohaha22(at)jbnu.ac.kr
       phone: +82-010-5583-7158
       address:
-        street: 전북대학교 공과대학 7호관
-        city: 전주시
-        region: 전라북도
+        street: College of Engineering, Building 7, Jeonbuk National University
+        city: Jeonju-si
+        region: Jeollabuk-do
         postcode: '54896'
-        country: 대한민국
+        country: South Korea
         country_code: KO
       coordinates:
         latitude: '35.84601324617979'

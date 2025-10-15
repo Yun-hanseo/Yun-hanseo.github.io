@@ -3,7 +3,7 @@
 title: 윤한서
 
 name_ko: "윤한서"
-name_en: "Yunhanseo"
+name_en: "Yun_Hanseo"
 
 # Full Name (for SEO)
 first_name: Hanseo

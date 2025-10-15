@@ -51,6 +51,6 @@ main:
     url: /like/drawing/
     weight: 130
 
-  - name: 연락
+  - name: Contact
     url: contact
     weight: 140
