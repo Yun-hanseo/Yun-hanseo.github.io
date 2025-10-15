@@ -1,10 +1,11 @@
-<div class="card my-custom-card">
-  <div class="card-body">
-    <h5 class="card-title">{{ .Title }}</h5>
-    <p class="card-text">{{ .Summary | plainify | safeHTML }}</p>
-    <a href="{{ .Permalink }}" class="card-link">자세히 보기</a>
+<<div class="card my-custom-card bg-gray-900 text-white rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition">
+  <div class="card-body p-6">
+    <h5 class="card-title text-2xl font-bold text-blue-400 mb-3">{{ .Title }}</h5>
+    <p class="card-text text-sm text-gray-300 mb-4">{{ .Summary | plainify | safeHTML }}</p>
+    <a href="{{ .Permalink }}" class="text-blue-300 hover:text-blue-500 font-semibold">🔍 자세히 보기</a>
   </div>
 </div>
+
 
 
 
