@@ -3,12 +3,18 @@ title: "게임개발"
 subtitle:
 date: 2025-10-13
 summary: ' '
-type: interests
+type: interest
 layout: single
 show_author: false
 
+image:
+  filename: "https://images.unsplash.com/photo-1614732414444-096f3eaf93e5?auto=format&fit=crop&w=1200&q=80"
+  caption: "Game Development Concept - Unsplash"
 
 ---
+
+![Game Development Process](https://images.unsplash.com/photo-1605902711622-cfb43c4437d1?auto=format&fit=crop&w=1200&q=80)
+**▲ 몰입감 있는 게임 개발 현장**
 
 저는 소프트웨어 개발(Development),특히 게임 개발 분야에 깊은 열정을 가지고 있습니다. 
 

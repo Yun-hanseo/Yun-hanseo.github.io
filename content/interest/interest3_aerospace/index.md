@@ -3,11 +3,18 @@ title: "항공우주"
 subtitle:
 date: 2025-10-13
 summary: ' '
-type: interests
+type: interest
 layout: single
 show_author: false
 
+image:
+  filename: "https://images.unsplash.com/photo-1544829099-826d0b42e9aa?auto=format&fit=crop&w=1200&q=80"
+  caption: "Aerospace Engineering - Unsplash"
+
 ---
+
+![AI + Aerospace](https://images.unsplash.com/photo-1529927066849-107f7f61b6f3?auto=format&fit=crop&w=1200&q=80)
+**▲ 미래형 항공우주 기술의 상징적 이미지**
 
 항공우주는 기술적 한계를 넘어 새로운 세계를 개척하려는 인간의 도전 정신이 가장 잘 드러나는 분야라고 생각합니다.
 
