@@ -25,16 +25,16 @@ organizations:
     url: ''
 
 interests:
-  - 인공지능 (AI)
-  - 항공우주 (Aerospace)
-  - 개발 (Development & Deploy)
+  - 인공지능
+  - 항공우주
+  - 개발
 
 education:
   courses:
-    - course: Computer Science and Artificial (컴퓨터인공지능학부)
+    - course: 컴퓨터인공지능학부
       institution: 전북대학교 (JBNU)
       year: 2023 
-    - course: Jeongwan High School
+    - course: 정관고등학교 졸업
       institution: 정관고등학교
       year: 2019 - 2022
 

@@ -1,11 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title:
-date: 2022-10-24
-type: landing
-
-# Leave the homepage title empty to use the site title
-title: "전북대학교 윤한서 | Jeonbuk National University Yoon Hanseo"
+title: "전북대학교 윤한서"
 date: 2022-10-24
 type: landing
 
