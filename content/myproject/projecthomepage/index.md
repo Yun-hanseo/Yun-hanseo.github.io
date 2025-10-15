@@ -7,6 +7,10 @@ layout: single
 type: myproject
 featured: true
 
+image:
+  filename: featured.jpg
+  preivew_only: false
+  
 links:
   - icon: github
     icon_pack: fab
