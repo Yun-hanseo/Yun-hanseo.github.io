@@ -33,7 +33,7 @@ links:
 
 -------------------------------------------------
 ![프로젝트](hsprojects/project1.png) 
-![프로젝트](hsprojects/project2.png)
+![프로젝트](hsprojects/mainpage.png)
 ![프로젝트](hsprojects/project3.png)  
  **▲프로젝트**<br> 
  수행한 프로젝트들을 보여준다.
