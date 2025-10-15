@@ -74,24 +74,8 @@ sections:
   - block: collection
     id: section-3
     content:
-      title: 수행 프로젝트
-      subtitle: 
-      text:
-      count: 3
-      offset: 0
-      order: desc
-      filters:
-        folders:
-          - myproject
-    design:
-      view: community/custom_view
-      columns: '2'
-
-  - block: collection
-    id: section-4
-    content:
       title: 관심분야
-      subtitle:
+      subtitle: 
       text:
       count: 3
       offset: 0
@@ -101,10 +85,10 @@ sections:
           - interest
     design:
       view: card
-      columns: '2'
+      columns: '3'
 
   - block: collection
-    id: section-5
+    id: section-4
     content:
       title: like
       subtitle:
