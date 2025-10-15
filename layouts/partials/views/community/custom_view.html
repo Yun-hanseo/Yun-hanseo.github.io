@@ -1,11 +1,15 @@
 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
   {{ range .Pages }}
   <div class="rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300 bg-white dark:bg-gray-900">
-    {{ with .Params.image.filename }}
-<a href="{{ $.RelPermalink }}">
-  <img src="{{ `media/` | relURL }}{{ . }}" alt="{{ $.Title }}" class="w-full h-56 object-cover">
-</a>
+    {{ with .Params.image }}
+  <a href="{{ $.RelPermalink }}">
+    <img src="{{ `media/` | relURL }}{{ .filename }}" alt="{{ $.Title }}" class="w-full h-56 object-cover">
+  </a>
+  {{ with .caption }}
+    <p class="text-xs text-gray-500 mt-1 text-center">{{ . | markdownify }}</p>
+  {{ end }}
 {{ end }}
+
 
     <div class="p-5">
       <h3 class="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-100">
