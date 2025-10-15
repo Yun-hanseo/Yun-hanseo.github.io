@@ -35,19 +35,19 @@ main:
     url : /interest/interest3_aerospace
     weight: 90
 
-  - name: 취미
+  - name: Hobbies
     url: /like/
     weight: 100
-  - parent: 취미
-    name: 독서
+  - parent: Hobbies
+    name: Reading
     url: /like/read/
     weight: 110
-  - parent: 취미
-    name: 사진
+  - parent: Hobbies
+    name: Photography
     url: /like/picture/
     weight: 120
-  - parent: 취미
-    name: 그림
+  - parent: Hobbies
+    name: Drawing
     url: /like/drawing/
     weight: 130
 

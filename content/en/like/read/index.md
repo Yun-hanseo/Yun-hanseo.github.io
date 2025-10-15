@@ -1,16 +1,15 @@
 ---
-title: "독서"
+title: "Reading"
 subtitle: ""
 date: 2025-10-13
-summary: ' '
+summary: ""
 type: like
 layout: single
 show_author: false
-
 ---
 
-![독서](hslike/book1.jpg)
-**▲ 인간실격/다자이 오사무**
+![Book](hslike/book1.jpg)  
+**▲ *No Longer Human* by Osamu Dazai**
 
-![독서](hslike/book2.jpg)
-**▲ 소년이 온다/한강**
+![Book](hslike/book2.jpg)  
+**▲ *Human Acts* by Han Kang**
