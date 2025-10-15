@@ -1,5 +1,5 @@
 ---
-title: "인공지능"
+title: "Artificial Intelligence"
 subtitle: ""
 date: 2025-10-13
 summary: ""
@@ -12,21 +12,16 @@ image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
+One of my main areas of interest is **Artificial Intelligence (AI)**.  
+I’m deeply fascinated by the process of designing intelligent systems that not only mimic human thinking but also extend beyond it.
 
-제 관심분야중 하나는 인공지능(AI)입니다.
-인간의 사고를 모방하고, 더 나아가 이를 확장할 수 있는 지능형 시스템을 구현하는 과정에 큰 관심을 가지고 있습니다. 
+My ultimate goal is to integrate AI across various fields to create new value and meaningful innovation.  
+I believe that AI technology is more than just algorithms — it is a tool capable of solving complex, real-world problems.
 
-인공지능(AI)을 다양한 분야와 융합해 새로운 가치를 창출하는 것이 저의 가장 큰 목표입니다.
+In particular, I have a strong interest in **autonomous driving technology**, where AI acts as the “eyes” and “brain” of a vehicle, enabling it to perceive, decide, and learn on its own.  
+To achieve this, I continuously study **machine learning**, **deep learning**, **sensor fusion**, and **computer vision** technologies.
 
-AI 기술이 단순한 알고리즘을 넘어, 현실 세계의 복잡한 문제를 해결하는 도구가 될 수 있다는 믿음이 있습니다.
+I view autonomous driving not merely as a technological challenge but as a revolution that transforms how humans move.  
+I aspire to be at the center of this innovation — contributing to the advancement of AI-driven mobility systems.
 
-특히 저는 자율주행 기술에 깊은 관심을 가지고 있으며,
-AI가 차량의 ‘눈’과 ‘두뇌’가 되어 스스로 판단하고 학습하는 시스템을 구현하는 과정에 매력을 느낍니다.
-
-이를 위해 머신러닝, 딥러닝, 센서 융합 기술, 컴퓨터 비전 등 다양한 기술들을 꾸준히 탐구하고 있습니다.
-
-자율주행은 단순한 기술적 도전이 아니라, 인간의 이동 방식 자체를 혁신하는 분야라고 생각합니다.
-
-저는 이러한 혁신의 한가운데에서 AI 기반 이동체의 발전에 기여하고 싶습니다.
-
-궁극적으로는 AI가 교통, 물류, 도시 인프라 전반과 연계되어 사람들의 일상에 안전하고 효율적인 변화를 가져오는 미래를 만드는 것이 제 꿈입니다.
+Ultimately, my dream is to help build a future where AI seamlessly connects with transportation, logistics, and urban infrastructure to bring safer and more efficient changes to people’s everyday lives.

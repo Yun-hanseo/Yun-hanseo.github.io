@@ -19,19 +19,19 @@ main:
     url: /myproject/projecthomepage/
     weight: 50
 
-  - name: 관심분야
+  - name: Interest
     url: /intrest/
     weight: 60
-  - parent: 관심분야
-    name: 인공지능
+  - parent: Interest
+    name: AI
     url: /interest/interest1_ai
     weight: 70
-  - parent: 관심분야
-    name: 게임개발
+  - parent: Interest
+    name: Game Development
     url: /interest/interest2_gamedevelop
     weight: 80
-  - parent: 관심분야
-    name: 항공우주
+  - parent: Interest
+    name: Aerospace
     url : /interest/interest3_aerospace
     weight: 90
 
