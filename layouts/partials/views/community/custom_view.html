@@ -1,11 +1,7 @@
 {{/* layouts/partials/views/community/custom_view.html */}}
 
 {{ $section := site.GetPage "section" "ko/myproject" }}
-{{ if not $section }}
-  {{ $section = site.GetPage "section" "myproject" }}
-{{ end }}
-
-{{ $pages := $section.Pages }}
+{{ $pages := $section.Pages | first 3 }}
 
 {{ if gt (len $pages) 0 }}
 <div class="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">
@@ -14,7 +10,6 @@
     {{ with .Params.image.filename }}
     <img src="{{ . | relURL }}" alt="{{ $.Title }}" class="w-full h-56 object-cover transform group-hover:scale-110 transition duration-500" />
     {{ end }}
-
     <div class="p-5">
       <h3 class="text-lg font-bold mb-2 text-gray-900 dark:text-white group-hover:text-blue-500 transition">{{ .Title }}</h3>
       {{ with .Params.subtitle }}
@@ -23,7 +18,6 @@
       {{ with .Summary }}
       <p class="text-gray-700 dark:text-gray-300 text-sm mb-4">{{ . | truncate 100 }}</p>
       {{ end }}
-
       {{ with .Params.links }}
       {{ range . }}
       <a href="{{ .url }}" target="_blank" class="inline-flex items-center text-blue-600 dark:text-blue-400 hover:underline text-sm">
@@ -39,12 +33,6 @@
 {{ else }}
 <p class="text-center text-gray-500 mt-8">❌ No projects found under /myproject.</p>
 {{ end }}
-
-
-
-
-
-
 
 
 
