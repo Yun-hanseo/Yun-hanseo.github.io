@@ -110,7 +110,7 @@ sections:
   - block: collection
     id: section-5
     content:
-      title: like
+      title: hobby
       subtitle:
       text:
       count: 3
