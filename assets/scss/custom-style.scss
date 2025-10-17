@@ -1,0 +1,8 @@
+/* 🧱 Force Tailwind to keep custom_view classes */
+@layer utilities {
+  .grid, .md\:grid-cols-3, .sm\:grid-cols-2, .group-hover\:scale-110,
+  .hover\:shadow-2xl, .hover\:-translate-y-2, .transition, .duration-300,
+  .bg-white, .dark\:bg-gray-900, .rounded-2xl {
+    /* dummy rule — just to prevent purge */
+  }
+}

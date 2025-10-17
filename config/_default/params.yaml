@@ -123,3 +123,6 @@ favicon:
   logo: "uploads/favicon.png"              
   safari_pinned_tab: "uploads/favicon.png"
   theme_color: "#ffffff"
+
+  custom_css:
+  - "scss/custom-style.scss"
