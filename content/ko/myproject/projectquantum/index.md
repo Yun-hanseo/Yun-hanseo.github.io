@@ -2,7 +2,7 @@
 title: "양자 컴퓨터"
 subtitle: "양자 컴퓨터의 배경부터 미래전망까지"
 date: 2025-09-25
-summary: ''
+summary: "양자 컴퓨터의 원리와 미래 전망을 시각적으로 정리한 프로젝트"
 layout: single
 type: myproject
 featured: true

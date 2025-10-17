@@ -117,6 +117,8 @@ publications:
   date_format: January 2006
   citation_style: apa
 
+#favicon settings
+
 favicon:
   logo: "uploads/favicon.png"              
   safari_pinned_tab: "uploads/favicon.png"

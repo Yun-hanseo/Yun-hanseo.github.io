@@ -1,35 +1,40 @@
-<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+{{/* layouts/partials/blocks/community/custom_view.html */}}
+<div class="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">
   {{ range .Pages }}
-  <div class="rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300 bg-white dark:bg-gray-900">
-    {{ with .Params.image }}
-  <a href="{{ $.RelPermalink }}">
-    <img src="{{ `media/` | relURL }}{{ .filename }}" alt="{{ $.Title }}" class="w-full h-56 object-cover">
-  </a>
-  {{ with .caption }}
-    <p class="text-xs text-gray-500 mt-1 text-center">{{ . | markdownify }}</p>
-  {{ end }}
-{{ end }}
-
+  <div
+    class="group relative overflow-hidden rounded-2xl shadow-md hover:shadow-2xl transition duration-300 bg-white dark:bg-gray-900"
+  >
+    {{ with .Params.image.filename }}
+    <img
+      src="{{ . | relURL }}"
+      alt="{{ $.Title }}"
+      class="w-full h-56 object-cover transform group-hover:scale-110 transition duration-500"
+    />
+    {{ end }}
 
     <div class="p-5">
-      <h3 class="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-100">
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <h3 class="text-lg font-bold mb-2 text-gray-900 dark:text-white group-hover:text-blue-500 transition">
+        {{ .Title }}
       </h3>
       {{ with .Params.subtitle }}
-      <p class="text-sm text-gray-500 mb-2">{{ . }}</p>
-      {{ end }}
-      {{ with .Summary }}
-      <p class="text-gray-700 dark:text-gray-300 text-sm mb-3">{{ . }}</p>
+      <p class="text-sm text-gray-600 dark:text-gray-400 mb-3">{{ . }}</p>
       {{ end }}
 
-      {{ if .Params.links }}
-      <div class="flex space-x-4 mt-2">
-        {{ range .Params.links }}
-        <a href="{{ .url }}" target="_blank" class="text-blue-500 hover:text-blue-700">
-          <i class="fab fa-{{ .icon }}"></i>
-        </a>
-        {{ end }}
-      </div>
+      {{ with .Summary }}
+      <p class="text-gray-700 dark:text-gray-300 text-sm mb-4">{{ . | truncate 100 }}</p>
+      {{ end }}
+
+      {{ with .Params.links }}
+      {{ range . }}
+      <a
+        href="{{ .url }}"
+        target="_blank"
+        class="inline-flex items-center text-blue-600 dark:text-blue-400 hover:underline text-sm"
+      >
+        <i class="{{ .icon_pack }} fa-{{ .icon }} mr-1"></i>
+        Visit
+      </a>
+      {{ end }}
       {{ end }}
     </div>
   </div>
