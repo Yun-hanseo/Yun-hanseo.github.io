@@ -1,0 +1,32 @@
+<style>
+/* 🧱 Custom Card Grid Fix */
+.grid, .md\:grid-cols-3, .sm\:grid-cols-2, .group-hover\:scale-110,
+.hover\:shadow-2xl, .hover\:-translate-y-2, .transition, .duration-300,
+.bg-white, .dark\:bg-gray-900, .rounded-2xl {
+  content: "keep";
+  display: block;
+}
+
+/* ✨ 실제 카드 스타일 커스터마이징 */
+.custom-card {
+  border-radius: 1rem;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.custom-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.2);
+}
+
+.custom-card img {
+  transition: transform 0.5s ease;
+}
+
+.custom-card:hover img {
+  transform: scale(1.08);
+}
+</style>
