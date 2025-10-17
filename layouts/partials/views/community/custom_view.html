@@ -1,6 +1,13 @@
 {{/* layouts/partials/views/community/custom_view.html */}}
 
-{{ $section := site.GetPage "section" "ko/myproject" }}
+{{ $lang := site.Language.Lang | default "ko" }}
+{{ $path := printf "%s/myproject" $lang }}
+{{ $section := site.GetPage "section" $path }}
+
+{{ if not $section }}
+  {{ $section = site.GetPage "section" "myproject" }}
+{{ end }}
+
 {{ $pages := $section.Pages | first 3 }}
 
 {{ if gt (len $pages) 0 }}
@@ -31,7 +38,7 @@
   {{ end }}
 </div>
 {{ else }}
-<p class="text-center text-gray-500 mt-8">❌ No projects found under /myproject.</p>
+<p class="text-center text-red-400 mt-8">❌ No projects found under /{{ $path }}.</p>
 {{ end }}
 
 
