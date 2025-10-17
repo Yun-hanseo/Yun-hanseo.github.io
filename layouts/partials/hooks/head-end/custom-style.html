@@ -1,32 +1,81 @@
 <style>
-/* 🧱 Custom Card Grid Fix */
-.grid, .md\:grid-cols-3, .sm\:grid-cols-2, .group-hover\:scale-110,
-.hover\:shadow-2xl, .hover\:-translate-y-2, .transition, .duration-300,
-.bg-white, .dark\:bg-gray-900, .rounded-2xl {
-  content: "keep";
-  display: block;
+/* ✅ 완전 강제 스타일 삽입 (Tailwind purge, SCSS 무시 대응) */
+
+/* 카드 그리드 */
+.grid.md\:grid-cols-3.sm\:grid-cols-2.grid-cols-1 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
 }
 
-/* ✨ 실제 카드 스타일 커스터마이징 */
+@media (max-width: 768px) {
+  .grid.md\:grid-cols-3.sm\:grid-cols-2.grid-cols-1 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 480px) {
+  .grid.md\:grid-cols-3.sm\:grid-cols-2.grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+/* 카드 기본 */
 .custom-card {
   border-radius: 1rem;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(12px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }
 
+/* hover 시 */
 .custom-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
 }
 
+/* 이미지 영역 */
 .custom-card img {
+  width: 100%;
+  height: 14rem;
+  object-fit: cover;
   transition: transform 0.5s ease;
 }
 
 .custom-card:hover img {
   transform: scale(1.08);
 }
+
+/* 오버레이 버튼 */
+.custom-card .overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.45);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.custom-card:hover .overlay {
+  opacity: 1;
+}
+
+.custom-card .overlay a {
+  color: white;
+  font-size: 0.9rem;
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.custom-card .overlay a:hover {
+  background: white;
+  color: black;
+}
 </style>
+

@@ -1,36 +1,28 @@
 <div class="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8">
   {{ range .Pages }}
-  <div class="custom-card group relative bg-white dark:bg-gray-900 rounded-2xl shadow-md hover:shadow-2xl overflow-hidden transition duration-300 transform hover:-translate-y-2">
-    
+  <div class="custom-card relative">
     {{ with .Params.image.filename }}
-    <div class="relative h-56 overflow-hidden">
-      <img src="{{ . | relURL }}" alt="{{ $.Title }}" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500" />
-      <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
-        <a href="{{ .RelPermalink }}" class="text-white text-sm font-semibold px-4 py-2 border border-white rounded-full hover:bg-white hover:text-black transition">자세히 보기 →</a>
+    <div class="relative">
+      <img src="{{ . | relURL }}" alt="{{ $.Title }}">
+      <div class="overlay">
+        <a href="{{ .RelPermalink }}">자세히 보기 →</a>
       </div>
     </div>
     {{ end }}
 
     <div class="p-5">
-      <h3 class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition">{{ .Title }}</h3>
+      <h3>{{ .Title }}</h3>
       {{ with .Params.subtitle }}
-      <p class="text-sm text-gray-600 dark:text-gray-400 mt-1 mb-2">{{ . }}</p>
+      <p>{{ . }}</p>
       {{ end }}
       {{ with .Summary }}
-      <p class="text-gray-700 dark:text-gray-300 text-sm mb-4">{{ . | truncate 80 }}</p>
-      {{ end }}
-
-      {{ with .Params.links }}
-      {{ range . }}
-      <a href="{{ .url }}" target="_blank" class="inline-flex items-center text-blue-600 dark:text-blue-400 hover:underline text-sm">
-        <i class="{{ .icon_pack }} fa-{{ .icon }} mr-1"></i> Visit
-      </a>
-      {{ end }}
+      <p>{{ . | truncate 80 }}</p>
       {{ end }}
     </div>
   </div>
   {{ end }}
 </div>
+
 
 
 
