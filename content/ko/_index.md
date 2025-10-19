@@ -73,21 +73,5 @@ sections:
           </a>
         </div>
     design:
-      css_class: "text-center py-10"
-
-  - block: collection
-    id: section-3
-    content:
-    title: "수행한 프로젝트"
-    text: "제가 수행한 프로젝트입니다."
-    count: 3
-    offset: 0
-    order: desc
-    filters:
-      folders:
-        - "myproject"   # ✅ 따옴표까지 추가 (숫자 인식 방지)
-    design:
-      view: "card"
-      columns: "3"        # ✅ 문자열
-
+      css_class: "text-center py-10"   
 ---
