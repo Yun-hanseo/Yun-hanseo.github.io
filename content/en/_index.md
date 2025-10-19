@@ -78,7 +78,7 @@ sections:
   - block: collection
     content:
       id: section-3
-      title: My project
+      title: Project
       subtitle:
       title:
       count: 3
@@ -94,7 +94,23 @@ sections:
   - block: collection
     content:
       id: section-4
-      title: My hobby
+      title: Interest
+      subtitle:
+      title:
+      count: 3
+      offset: 0
+      order: desc
+      filters:
+        folders:
+          - interest
+    design:
+      view: card
+      columns: '3'
+
+  - block: collection
+    content:
+      id: section-5
+      title: Hobby
       subtitle:
       title:
       count: 3
