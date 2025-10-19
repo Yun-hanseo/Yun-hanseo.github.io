@@ -78,16 +78,16 @@ sections:
   - block: collection
     id: section-3
     content:
-      title: "My projects"
-      text: "Explore the projects I have worked on."
+      title: "수행한 프로젝트"
+      text: "제가 수행한 프로젝트입니다."
       count: 3
       offset: 0
       order: desc
       filters:
         folders:
-          - myproject
+          - "myproject"  
     design:
-      view: card
-      columns: "3"
+      view: "card"
+      columns: "3"  
       
 ---
