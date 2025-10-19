@@ -85,7 +85,7 @@ sections:
       order: desc
       filters:
         folders:
-          -myproject
+          - myproject
     design:
       view: card
       columns: "3"
