@@ -88,6 +88,6 @@ sections:
           -myproject
     design:
       view: card
-      columns: "1"
+      columns: "3"
       
 ---
