@@ -2,11 +2,10 @@
 title: "독서"
 subtitle: ""
 date: 2025-10-13
-summary: ' '
+summary: ""
 type: like
 layout: single
 show_author: false
-
 ---
 
 ![독서](hslike/book1.jpg)
