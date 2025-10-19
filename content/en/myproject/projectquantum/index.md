@@ -7,8 +7,9 @@ layout: single
 type: myproject
 featured: true
 
-image:
-  filename: quantum.jpg
+header:
+  overlat_image: quantum.jpg
+  overlay_filter: 0.35
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
