@@ -104,6 +104,6 @@ sections:
         folders:
           - like
     design:
-      view: grid
+      view: card
       columns: '3'
 ---
