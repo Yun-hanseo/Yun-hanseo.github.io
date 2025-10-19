@@ -74,4 +74,20 @@ sections:
         </div>
     design:
       css_class: "text-center py-10"
+
+  - block: collection
+    content:
+      id: section-3
+      title: My project
+      subtitle:
+      title:
+      count: 3
+      offset: 0
+      order: desc
+      filters:
+        folders:
+          - myproject
+    design:
+      view: card
+      columns: '3'
 ---
