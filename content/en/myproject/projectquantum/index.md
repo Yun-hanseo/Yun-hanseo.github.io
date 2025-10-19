@@ -2,17 +2,15 @@
 title: "Quantum Computer"
 subtitle: "From the Background to the Future Prospects of Quantum Computing"
 date: 2025-09-25
-summary: ""
+summary: "A visual project on the principles and future outlook of quantum computing."
 layout: single
 type: myproject
 featured: true
 
 image:
-  filenmae: quantum.jpg
-  preivew_only: false
+  filename: quantum.jpg
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
-
 
 ![Background & Core Technologies: Superposition and Interference](hsprojects/quantum1.png)  
 **▲ Background & Core Technologies**  

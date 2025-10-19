@@ -32,6 +32,7 @@ links:
 <br><br>
 
 -------------------------------------------------
+
 ![프로젝트](hsprojects/project1.png) 
 ![프로젝트](hsprojects/project2.png)
 ![프로젝트](hsprojects/project3.png)  
@@ -41,6 +42,7 @@ links:
 <br><br>
 
 ------------------------------------------------
+
 ![관심분야](hsprojects/interestai.png)  
 ![관심분야](hsprojects/interestgame.png) 
 ![관심분야](hsprojects/interestaerospace.png) 
@@ -50,6 +52,7 @@ links:
 <br><br>
 
 ----------------------------------------------
+
 ![▲ 취미 1. 독서](hsprojects/hobbiread.png) 
 ![▲ 취미 2. 사진](hsprojects/hobbiepicture.png)  
 ![▲ 취미 3. 그림](hsprojects/hobbidraw.png) 
