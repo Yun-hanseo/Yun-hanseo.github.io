@@ -10,6 +10,3 @@ show_author: false
 
 ![Book](hslike/book1.jpg)  
 **▲ *No Longer Human* by Osamu Dazai**
-
-![Book](hslike/book2.jpg)  
-**▲ *Human Acts* by Han Kang**
