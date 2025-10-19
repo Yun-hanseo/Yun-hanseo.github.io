@@ -41,6 +41,11 @@ header:
     show_search: true
     highlight_active_link: false
 
+  logo:
+    image: icon.png
+    image_dark: icon.png
+    alt_text: "Yunportfolio"
+
 # Site footer
 
 footer:
@@ -117,12 +122,3 @@ publications:
   date_format: January 2006
   citation_style: apa
 
-#favicon settings
-
-favicon:
-  logo: "uploads/favicon.png"              
-  safari_pinned_tab: "uploads/favicon.png"
-  theme_color: "#ffffff"
-
-  custom_css:
-  - "scss/custom-style.scss"
