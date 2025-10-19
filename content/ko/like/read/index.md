@@ -10,6 +10,3 @@ show_author: false
 
 ![독서](hslike/book1.jpg)
 **▲ 인간실격/다자이 오사무**
-
-![독서](hslike/book2.jpg)
-**▲ 소년이 온다/한강**
