@@ -94,7 +94,7 @@ sections:
   - block: collection
     content:
       id: section-4
-      title: My Interest
+      title: My hobby
       subtitle:
       title:
       count: 3
@@ -102,8 +102,8 @@ sections:
       order: desc
       filters:
         folders:
-          - interest
+          - like
     design:
-      view: list
+      view: grid
       columns: '3'
 ---
