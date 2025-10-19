@@ -90,4 +90,20 @@ sections:
     design:
       view: card
       columns: '3'
+
+  - block: collection
+    content:
+      id: section-4
+      title: My Interest
+      subtitle:
+      title:
+      count: 3
+      offset: 0
+      order: desc
+      filters:
+        folders:
+          - interest
+    design:
+      view: list
+      columns: '3'
 ---
