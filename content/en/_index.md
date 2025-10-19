@@ -88,7 +88,7 @@ sections:
         folders:
           - myproject
     design:
-      view: community/custom_view
+      view: list
       columns: '3'
 
   - block: collection
