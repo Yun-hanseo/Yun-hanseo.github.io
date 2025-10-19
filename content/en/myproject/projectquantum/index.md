@@ -7,11 +7,12 @@ layout: single
 type: myproject
 featured: true
 
-header:
-  overlat_image: quantum.jpg
-  overlay_filter: 0.35
+image:
+  filenmae: quantum.jpg
+  preivew_only: false
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
+
 
 ![Background & Core Technologies: Superposition and Interference](hsprojects/quantum1.png)  
 **▲ Background & Core Technologies**  
