@@ -29,12 +29,3 @@ AI가 차량의 ‘눈’과 ‘두뇌’가 되어 스스로 판단하고 학�
 저는 이러한 혁신의 한가운데에서 AI 기반 이동체의 발전에 기여하고 싶습니다.
 
 궁극적으로는 AI가 교통, 물류, 도시 인프라 전반과 연계되어 사람들의 일상에 안전하고 효율적인 변화를 가져오는 미래를 만드는 것이 제 꿈입니다.
-
-<style>
-.article-style p {
-  text-align: justify;
-  text-justify: inter-word;
-  line-height: 1.8; /* (선택사항) 가독성 향상 */
-  word-break: keep-all; /* 한국어 단어 깨짐 방지 */
-}
-</style>
