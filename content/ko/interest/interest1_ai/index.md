@@ -6,7 +6,6 @@ summary: ""
 type: interest
 layout: single
 show_author: false
-css_class: justify-ai
 
 image:
   filename: welcome.jpg

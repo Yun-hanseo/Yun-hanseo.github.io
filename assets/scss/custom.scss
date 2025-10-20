@@ -1,10 +1,10 @@
 /* ================================================
- 🧠 관심분야(interest) 페이지 전체 양쪽 정렬
-  - type: interest 가 적용된 모든 페이지에 공통 적용
-  - 예: interest1_ai, interest2_gamedevelop, interest3_aerospace ...
+ 🌍 Apply to ALL interest pages (Korean + English)
 ================================================= */
 
-body.page-type-interest {
+body.page-type-interest,
+body.page-type-interest.lang-en,
+body.page-type-interest.lang-ko {
   .article-style,
   .article-style p,
   .page-body,
@@ -17,10 +17,10 @@ body.page-type-interest {
   }
 }
 
-/* ================================================
- ✨ 가독성 향상 (문단 간 간격 + 제목 여백)
-================================================= */
-body.page-type-interest {
+/* Optional: paragraph spacing & heading margin */
+body.page-type-interest,
+body.page-type-interest.lang-en,
+body.page-type-interest.lang-ko {
   .article-style p + p {
     margin-top: 1em;
   }
