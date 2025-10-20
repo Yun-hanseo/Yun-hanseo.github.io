@@ -60,9 +60,10 @@ footer:
 # Localization
 
 locale:
-  date_format: '2006년 1월 2일'
-  time_format: '15:04'
-  address_format: ko-kr
+  date_format: "January 2, 2006"
+  time_format: "3:04 PM"
+  address_format: "en-us"
+
 
 # Site features
 
