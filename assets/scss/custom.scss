@@ -38,3 +38,64 @@ body.page-type-like.lang-ko {
   }
 }
 
+/* ================================
+   📂 Dropdown menu hover style
+   (Compatible with theme-research-group)
+================================ */
+
+/* 네비게이션 드롭다운 컨테이너 */
+.navbar-nav > li {
+  position: relative;
+}
+
+/* 드롭다운 메뉴 숨기기 (기본) */
+.navbar-nav > li > ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: var(--color-bg);
+  border-radius: 0.6rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 0.5rem 0;
+  list-style: none;
+  z-index: 1000;
+  min-width: 200px;
+  transition: all 0.25s ease;
+}
+
+/* Hover 시 드롭다운 표시 */
+.navbar-nav > li:hover > ul {
+  display: block;
+}
+
+/* 드롭다운 메뉴 항목 */
+.navbar-nav > li > ul > li {
+  padding: 0.5rem 1rem;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* 링크 텍스트 */
+.navbar-nav > li > ul > li > a {
+  color: var(--color-text);
+  text-decoration: none;
+  display: block;
+}
+
+/* Hover 시 색상 변경 */
+.navbar-nav > li > ul > li:hover {
+  background-color: var(--color-primary-light); /* 테마 색상과 어울림 */
+}
+
+.navbar-nav > li > ul > li:hover > a {
+  color: var(--color-primary);
+}
+
+/* 드롭다운 트리거 버튼 색상 변경 */
+.navbar-nav > li:hover > a,
+.navbar-nav > li > a:focus {
+  color: var(--color-primary);
+  background-color: rgba(255, 192, 203, 0.2); /* 핑크톤 하이라이트 */
+  border-radius: 0.5rem;
+  transition: all 0.2s ease;
+}
