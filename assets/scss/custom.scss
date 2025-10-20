@@ -1,10 +1,13 @@
 /* ================================================
- 🌍 Apply to ALL interest pages (Korean + English)
+ 🌍 Apply to ALL interest & like pages (Korean + English)
 ================================================= */
 
 body.page-type-interest,
 body.page-type-interest.lang-en,
-body.page-type-interest.lang-ko {
+body.page-type-interest.lang-ko,
+body.page-type-like,
+body.page-type-like.lang-en,
+body.page-type-like.lang-ko {
   .article-style,
   .article-style p,
   .page-body,
@@ -20,7 +23,10 @@ body.page-type-interest.lang-ko {
 /* Optional: paragraph spacing & heading margin */
 body.page-type-interest,
 body.page-type-interest.lang-en,
-body.page-type-interest.lang-ko {
+body.page-type-interest.lang-ko,
+body.page-type-like,
+body.page-type-like.lang-en,
+body.page-type-like.lang-ko {
   .article-style p + p {
     margin-top: 1em;
   }
@@ -31,3 +37,4 @@ body.page-type-interest.lang-ko {
     margin-top: 1.4em;
   }
 }
+
