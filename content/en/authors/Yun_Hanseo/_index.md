@@ -85,5 +85,6 @@ I find the greatest fulfillment in understanding the world through data and solv
 In **Aerospace**, I’m fascinated by humanity’s endless challenge to push beyond technological boundaries and explore new worlds.  
 I dream of integrating AI technology into aviation and space systems — developing autonomous flight, space exploration automation, and intelligent data analysis for future-oriented research.
 
-Finally, **software development** is the foundation of my passion.  
-Rather than merely writing code, I strive to create better user experiences and meaningful digital services.  
+Game Development is more than just writing code — I see it as a creative process of designing player experiences.
+I’m deeply interested in the entire development pipeline, including game design, graphics, and sound.
+Through development, I aim to create interactive worlds that engage players both emotionally and visually. 
