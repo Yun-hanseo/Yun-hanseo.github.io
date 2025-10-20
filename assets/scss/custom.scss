@@ -1,0 +1,60 @@
+/* ================================================
+ 🧠 Global Justify Text Style
+  - 모든 본문(text body)에 양쪽 정렬 적용
+  - HugoBlox theme-research-group 전용
+================================================= */
+
+.article-style,
+.article-style p,
+.page-body,
+.page-body p {
+  text-align: justify !important;
+  text-justify: inter-word !important;
+  line-height: 1.8;
+  word-break: keep-all;   // 한국어 단어 깨짐 방지
+  hyphens: auto;          // 영어 단어 줄바꿈 보정
+}
+
+/* ================================================
+ 📘 Optional: 특정 페이지(class 부여) 전용
+  - 예: AI 페이지 front matter에 css_class: justify-ai 추가 시
+================================================= */
+
+.justify-ai {
+  .article-style,
+  .article-style p,
+  .page-body,
+  .page-body p {
+    text-align: justify !important;
+    text-justify: inter-word !important;
+    line-height: 1.8;
+    word-break: keep-all;
+  }
+}
+
+/* ================================================
+ ✨ Extra polish (가독성 향상)
+  - 문단 간 간격 및 제목 아래 여백
+================================================= */
+
+.article-style p + p {
+  margin-top: 1em;
+}
+
+.article-style h2,
+.article-style h3 {
+  margin-bottom: 0.6em;
+  margin-top: 1.4em;
+}
+
+/* ================================================
+ 🌗 Compatibility
+  - 다크모드/라이트모드에서도 동일하게 적용
+================================================= */
+
+html[data-theme="dark"] {
+  .article-style,
+  .page-body {
+    color: #e5e7eb; // Tailwind의 gray-200 정도
+  }
+}

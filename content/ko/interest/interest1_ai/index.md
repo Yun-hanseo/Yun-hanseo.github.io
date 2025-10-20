@@ -6,6 +6,7 @@ summary: ""
 type: interest
 layout: single
 show_author: false
+css_class: justify-ai
 
 image:
   filename: welcome.jpg
@@ -30,17 +31,4 @@ AI가 차량의 ‘눈’과 ‘두뇌’가 되어 스스로 판단하고 학�
 
 궁극적으로는 AI가 교통, 물류, 도시 인프라 전반과 연계되어 사람들의 일상에 안전하고 효율적인 변화를 가져오는 미래를 만드는 것이 제 꿈입니다.
 
----
-
-<style>
-div.page-body,
-div.page-body p,
-div.article-style,
-div.article-style p {
-  text-align: justify !important;
-  text-justify: inter-word !important;
-  line-height: 1.8;
-  word-break: keep-all;
-}
-</style>
 
