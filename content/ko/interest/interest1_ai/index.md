@@ -33,13 +33,14 @@ AI가 차량의 ‘눈’과 ‘두뇌’가 되어 스스로 판단하고 학�
 ---
 
 <style>
-/* interest1_ai 페이지 본문 전체 양쪽 정렬 */
-.article-style,
-.article-style p,
-.page-body p {
+div.page-body,
+div.page-body p,
+div.article-style,
+div.article-style p {
   text-align: justify !important;
   text-justify: inter-word !important;
   line-height: 1.8;
   word-break: keep-all;
 }
 </style>
+
