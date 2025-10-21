@@ -41,7 +41,7 @@ header:
     show_search: true
     highlight_active_link: false
     
-  branding:
+branding:
     logo:
       text: YunPortfolio
       filename: uploads/logo.png
