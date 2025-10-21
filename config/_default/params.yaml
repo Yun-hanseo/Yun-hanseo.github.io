@@ -42,8 +42,8 @@ header:
     highlight_active_link: false
 
   logo:
-    image: icon.png
-    image_dark: icon.png
+    text: true
+    filename: "icon.png"
     alt_text: "Yunportfolio"
 
 # Site footer
