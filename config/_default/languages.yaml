@@ -6,14 +6,14 @@
 en:
   languageCode: en-us
   contentDir: content/en
-  title: Yunporfolio
+  title: YunPortfolio
   params:
     description: portfolio yun
 
 ko:
   languageCode: ko
   contentDir: content/ko
-  title: YunPorfolio
+  title: YunPortfolio
   params:
     description: portfolio yun 
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
