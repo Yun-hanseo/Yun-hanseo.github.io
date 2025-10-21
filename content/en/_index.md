@@ -16,7 +16,7 @@ sections:
           image:
             filename: welcome.jpg
             filters:
-              brightness: 0.8
+              brightness: 0.3
           overlay_color: '#000000'
           overlay_opacity: 0.35
           position: center
@@ -28,7 +28,7 @@ sections:
           image:
             filename: contact.jpg
             filters:
-              brightness: 0.8
+              brightness: 0.3
           overlay_color: '#000000'
           overlay_opacity: 0.35
           position: center
@@ -40,7 +40,7 @@ sections:
           image:
             filename: coders.jpg
             filters:
-              brightness: 0.8
+              brightness: 0.3
           overlay_color: '#000000'
           overlay_opacity: 0.35
           position: center
