@@ -30,7 +30,6 @@ marketing:
     baidu: ''
 
 # Site header
-
 header:
   navbar:
     enable: true
@@ -40,12 +39,15 @@ header:
     show_day_night: true
     show_search: true
     highlight_active_link: false
-    
+
+# Site branding (로고)
 branding:
   logo:
-    text: Yunprotfolio
-    filename: uploads/logo.png
-    link: '/'
+    light: "uploads/logo.png"     # 밝은 테마용 로고
+    dark: "uploads/logo.png"      # 어두운 테마용 로고
+    alt: "YunPortfolio"
+  site_title: "YunPortfolio"      # 로고 옆 텍스트
+
 
 # Site footer
 
