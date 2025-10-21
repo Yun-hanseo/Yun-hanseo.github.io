@@ -41,10 +41,10 @@ header:
     show_search: true
     highlight_active_link: false
 
-  logo:
-    text: 'YunPortfolio'
-    filename: uploads/logo.png
-    link: '/'
+    logo:
+      text: 'YunPortfolio'
+      filename: uploads/logo.png
+      link: '/'
 
 # Site footer
 
