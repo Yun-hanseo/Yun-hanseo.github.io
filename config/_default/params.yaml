@@ -40,8 +40,10 @@ header:
     show_day_night: true
     show_search: true
     highlight_active_link: false
+    
+  branding:
     logo:
-      text: 'YunPortfolio'
+      text: YunPortfolio
       filename: uploads/logo.png
       link: '/'
 
