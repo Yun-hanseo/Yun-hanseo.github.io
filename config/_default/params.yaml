@@ -40,9 +40,10 @@ header:
     show_day_night: true
     show_search: true
     highlight_active_link: false
-    logo:
+
+  logo:
       text: 'YunPorfolio'
-      filename: titlelogo.png
+      filename: uploads/titlelogo.png
       link: '/'
 
 # Site footer
