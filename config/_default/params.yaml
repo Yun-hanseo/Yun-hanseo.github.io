@@ -41,9 +41,9 @@ header:
     show_search: true
     highlight_active_link: false
     logo:
-    text: 'YunPorfolio'
-    filename: titlelogo.png
-    link: '/'
+      text: 'YunPorfolio'
+      filename: titlelogo.png
+      link: '/'
 
 # Site footer
 
