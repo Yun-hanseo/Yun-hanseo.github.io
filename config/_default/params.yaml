@@ -43,7 +43,7 @@ header:
 
   logo:
     text: true
-    filename: "uploads/icon.png"
+    filename: "uploads/titlelogo.png"
     alt_text: "Yunportfolio"
 
 # Site footer
