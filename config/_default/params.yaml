@@ -42,7 +42,7 @@ header:
     highlight_active_link: false
 
   logo:
-      text: 'YunPorfolio'
+      text: 'YunPortfolio'
       filename: uploads/titlelogo.png
       link: '/'
 
