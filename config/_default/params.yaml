@@ -42,9 +42,9 @@ header:
     highlight_active_link: false
 
   logo:
-    text: true
-    filename: "uploads/titlelogo.png"
-    alt_text: "Yunportfolio"
+    text: 'YunPorfolio'
+    filename: titlelogo.png
+    link: '/'
 
 # Site footer
 
