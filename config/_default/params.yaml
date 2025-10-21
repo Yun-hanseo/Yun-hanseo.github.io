@@ -42,10 +42,10 @@ header:
     highlight_active_link: false
     
 branding:
-    logo:
-      text: Yunprotfolio
-      filename: uploads/logo.png
-      link: '/'
+  logo:
+    text: Yunprotfolio
+    filename: uploads/logo.png
+    link: '/'
 
 # Site footer
 
