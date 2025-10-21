@@ -59,3 +59,35 @@
   border-radius: 0.5rem;
   transition: all 0.2s ease;
 }
+
+
+/* ===============================
+   🧭 Header Logo Customization
+   for HugoBlox theme-research-group
+================================= */
+
+/* 로고 이미지 */
+.navbar-brand img {
+  height: 38px;             /* 로고 높이 */
+  width: auto;
+  vertical-align: middle;
+  margin-right: 10px;       /* 로고와 텍스트 간격 */
+  transition: transform 0.3s ease;
+}
+
+/* 마우스 호버 시 살짝 확대 */
+.navbar-brand img:hover {
+  transform: scale(1.05);
+}
+
+/* 로고 옆 사이트 제목 */
+.navbar-brand span {
+  font-size: 1.1rem;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+/* 다크모드 대비 */
+[data-theme='dark'] .navbar-brand img {
+  filter: brightness(1.05);
+}
