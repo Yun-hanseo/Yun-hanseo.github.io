@@ -42,8 +42,7 @@ header:
     logo:
       text: YunPortfolio
       image:
-        filenmae: "uploads/logo.png"
-        alt_text: "My portfolio Logo"
+        filenmae: "assets/media/icon.png"
 
 
 # Site footer
