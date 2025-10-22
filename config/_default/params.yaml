@@ -41,8 +41,7 @@ header:
     highlight_active_link: false
     logo:
       text: YunPortfolio
-      image:
-        filenmae: "assets/media/icon.png"
+      filenmae: "assets/media/icon.png"
 
 
 # Site footer
