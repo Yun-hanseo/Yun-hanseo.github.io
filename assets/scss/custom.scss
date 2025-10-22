@@ -74,33 +74,30 @@
 
 
 
-/* ==============================================
-📘 Force text justify on interest pages
-================================================ */
-body.page-type-interest .page-body,
-body.page-type-interest .page-body p,
-body.page-type-interest .article-style,
-body.page-type-interest .article-style p {
-  text-align: justify !important;
-  text-justify: inter-word !important;
-  line-height: 1.8;
-  word-break: keep-all;
-  hyphens: auto;
+/* ===========================================
+ 🎨 메인 인덱스(홈) 각 섹션 배경색
+  - 프로젝트: 베이지
+  - 관심분야: 흰색
+  - 취미: 베이지
+=========================================== */
+
+/* 첫 번째 섹션 (프로젝트) */
+#section-3 {
+  background-color: #f8f1e7 !important; /* 연한 베이지 */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
-/* 문단 간격 */
-body.page-type-interest .page-body p + p,
-body.page-type-interest .article-style p + p {
-  margin-top: 1em;
+/* 두 번째 섹션 (관심분야) */
+#section-4 {
+  background-color: #ffffff !important; /* 흰색 */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
-/* 제목과 본문 간격 */
-body.page-type-interest .page-body h2,
-body.page-type-interest .page-body h3,
-body.page-type-interest .article-style h2,
-body.page-type-interest .article-style h3 {
-  margin-top: 1.4em;
-  margin-bottom: 0.6em;
+/* 세 번째 섹션 (취미) */
+#section-5 {
+  background-color: #f8f1e7 !important; /* 연한 베이지 */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
-
-

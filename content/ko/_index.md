@@ -90,12 +90,10 @@ sections:
     design:
       view: card
       columns: '3'
-    background:
-      color: '#f8f1e7'
 
   - block: collection
     content:
-      id: section-3
+      id: section-4
       title: 관심분야
       subtitle:
       title:
@@ -108,12 +106,10 @@ sections:
     design:
       view: card
       columns: '3'
-    background:
-      color: '#ffffff'
 
   - block: collection
     content:
-      id: section-4
+      id: section-5
       title: 취미
       subtitle:
       title:
@@ -126,6 +122,4 @@ sections:
     design:
       view: card
       columns: '3'
-    background:
-      color: '#f8f1e7'
 ---
