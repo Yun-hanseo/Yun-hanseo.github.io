@@ -10,6 +10,12 @@ appearance:
   theme_night: black
   font: lato
   font_size: M
+  logo:
+    image: "uploads/logo.png"      # 업로드한 로고 경로
+    alt: "Jeonbuk National University / Yun Hanseo"
+    width: 180
+    height: "auto"
+
 
 # SEO
 marketing:
@@ -40,9 +46,6 @@ header:
     show_day_night: true
     show_search: true
     highlight_active_link: false
-    logo:
-      image: uploads/logo.png
-      width: 50
 
 
 # Site footer
