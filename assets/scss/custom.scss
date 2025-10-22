@@ -72,4 +72,40 @@
 }
 
 
+/* ==============================================
+📘 Text Justify for Interest Pages
+(예: content/ko/interest/*)
+Theme: HugoBlox theme-research-group
+================================================ */
+
+/* 🌐 관심사(Interest) 페이지 전용 스타일 */
+body.page-type-interest,
+body.page-type-interest.lang-ko,
+body.page-type-interest.lang-en {
+  .article-style,
+  .article-style p,
+  .page-body,
+  .page-body p {
+    text-align: justify !important;
+    text-justify: inter-word !important;
+    line-height: 1.8;
+    word-break: keep-all;
+    hyphens: auto;
+  }
+
+  /* 문단 간격 */
+  .article-style p + p,
+  .page-body p + p {
+    margin-top: 1em;
+  }
+
+  /* 제목과 본문 간격 */
+  .article-style h2,
+  .article-style h3,
+  .page-body h2,
+  .page-body h3 {
+    margin-top: 1.4em;
+    margin-bottom: 0.6em;
+  }
+}
 
