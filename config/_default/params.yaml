@@ -11,12 +11,6 @@ appearance:
   font: lato
   font_size: M
 
-  logo:
-    light: "uploads/logo.png"     # 밝은 모드용
-    dark: "uploads/logo.png"      # 어두운 모드용
-    alt: "YunPortfolio"
-    text: "YunPortfolio"          # 로고 옆 텍스트
-
 # SEO
 marketing:
   seo:
@@ -45,6 +39,11 @@ header:
     show_day_night: true
     show_search: true
     highlight_active_link: false
+    logo:
+      text: YunPortfolio
+      image:
+        filenmae: "uploads/logo.png"
+        alt_text: "My portfolio Logo"
 
 
 # Site footer
