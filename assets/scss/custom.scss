@@ -74,30 +74,40 @@
 
 
 
-/* ===========================================
- 🎨 메인 인덱스(홈) 각 섹션 배경색
-  - 프로젝트: 베이지
-  - 관심분야: 흰색
-  - 취미: 베이지
-=========================================== */
+/* ===============================
+ 🌿 밝은 파스텔톤 배경 조합
+=============================== */
 
-/* 첫 번째 섹션 (프로젝트) */
+/* 프로젝트 섹션 */
 #section-3 {
-  background-color: #f8f1e7 !important; /* 연한 베이지 */
+  background-color: #fff8e7 !important; /* 아이보리 크림 */
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
 
-/* 두 번째 섹션 (관심분야) */
+/* 관심분야 섹션 */
 #section-4 {
-  background-color: #ffffff !important; /* 흰색 */
+  background-color: #f3fbf8 !important; /* 소프트 민트 */
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
 
-/* 세 번째 섹션 (취미) */
+/* 취미 섹션 */
 #section-5 {
-  background-color: #f8f1e7 !important; /* 연한 베이지 */
+  background-color: #fff3ed !important; /* 라이트 피치 */
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+/* 💡 카드랑 본문이 자연스럽게 어우러지게 */
+#section-3, #section-4, #section-5 {
+  transition: background-color 0.3s ease;
+}
+
+#section-3 .card,
+#section-4 .card,
+#section-5 .card {
+  background-color: #ffffff !important; /* 카드 내부는 하얗게 */
+  border-radius: 1rem;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
 }
