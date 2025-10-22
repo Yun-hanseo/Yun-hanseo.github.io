@@ -124,4 +124,4 @@ publications:
 # scss classes
 custom_css:
   - custom.scss
-  - text_justify.css
+  - text_justify.scss
