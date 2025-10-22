@@ -7,3 +7,33 @@
 .cta-group {
   justify-content: center;
 }
+
+
+/* ==========================================
+   🔹 HugoBlox header: 로고 + 제목 같이 표시
+   ========================================== */
+
+/* 로고 삽입 */
+.navbar-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px; /* 로고와 제목 간격 */
+}
+
+/* 로고 이미지 추가 */
+.navbar-brand::before {
+  content: "";
+  display: inline-block;
+  width: 45px;  /* 로고 크기 조정 */
+  height: 45px;
+  background: url("/uploads/logo.png") no-repeat center center;
+  background-size: contain;
+}
+
+/* 텍스트(사이트 제목) 스타일 살짝 정리 */
+.navbar-brand span,
+.navbar-brand .brand-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--bs-navbar-color, #000); /* 다크/라이트 자동 대응 */
+}
