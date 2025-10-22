@@ -1,39 +1,48 @@
 /* ==========================================
-/* ==========================================
-   🌍 모든 interest 페이지 양쪽정렬
-========================================== */
+   🌍 모든 interest / like 페이지 양쪽정렬
+   ========================================== */
 
-/* 한국어 + 영어 interest 페이지 공통 */
-body.page-type-interest .article-style,
-body.page-type-interest .article-style p,
-body.page-type-interest .page-body,
-body.page-type-interest .page-body p,
-body.page-type-interest.lang-ko .article-style,
-body.page-type-interest.lang-ko .article-style p,
-body.page-type-interest.lang-ko .page-body,
-body.page-type-interest.lang-ko .page-body p,
-body.page-type-interest.lang-en .article-style,
-body.page-type-interest.lang-en .article-style p,
-body.page-type-interest.lang-en .page-body,
-body.page-type-interest.lang-en .page-body p {
+/* ✅ interest, like 페이지 전체 문단 정렬 */
+body[class*="page-type-interest"] p,
+body[class*="page-type-like"] p {
   text-align: justify !important;
   text-justify: inter-word !important;
-  line-height: 1.8;
-  word-break: keep-all;
-  hyphens: auto;
+  line-height: 1.8 !important;
+  word-break: keep-all !important;
+  hyphens: auto !important;
 }
 
-/* 문단 간 간격 */
-body.page-type-interest .article-style p + p,
-body.page-type-interest .page-body p + p {
-  margin-top: 1em;
+/* ✅ 제목과 본문 간 간격 */
+body[class*="page-type-interest"] h2,
+body[class*="page-type-interest"] h3,
+body[class*="page-type-like"] h2,
+body[class*="page-type-like"] h3 {
+  margin-top: 1.4em !important;
+  margin-bottom: 0.6em !important;
 }
 
-/* 제목과 본문 간격 */
-body.page-type-interest .article-style h2,
-body.page-type-interest .article-style h3,
-body.page-type-interest .page-body h2,
-body.page-type-interest .page-body h3 {
-  margin-top: 1.4em;
-  margin-bottom: 0.6em;
+/* ✅ 문단 간 간격 */
+body[class*="page-type-interest"] p + p,
+body[class*="page-type-like"] p + p {
+  margin-top: 1em !important;
+}
+
+/* ✅ article-style / page-body 안쪽 p에도 확실히 적용 */
+body[class*="page-type-interest"] .article-style p,
+body[class*="page-type-interest"] .page-body p,
+body[class*="page-type-like"] .article-style p,
+body[class*="page-type-like"] .page-body p {
+  text-align: justify !important;
+  text-justify: inter-word !important;
+  line-height: 1.8 !important;
+  word-break: keep-all !important;
+  hyphens: auto !important;
+}
+
+/* ✅ 모든 하위 요소에 대해서도 예외 없이 적용 */
+body[class*="page-type-interest"] .article-style * p,
+body[class*="page-type-interest"] .page-body * p,
+body[class*="page-type-like"] .article-style * p,
+body[class*="page-type-like"] .page-body * p {
+  text-align: justify !important;
 }
