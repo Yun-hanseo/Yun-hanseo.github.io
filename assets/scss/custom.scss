@@ -72,42 +72,32 @@
 }
 
 
-
-
-/* ===============================
- 🌿 밝은 파스텔톤 배경 조합
-=============================== */
-
-/* 프로젝트 섹션 */
-#section-3 {
-  background-color: #fff8e7 !important; /* 아이보리 크림 */
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-/* 관심분야 섹션 */
-#section-4 {
-  background-color: #f3fbf8 !important; /* 소프트 민트 */
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-/* 취미 섹션 */
-#section-5 {
-  background-color: #fff3ed !important; /* 라이트 피치 */
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-/* 💡 카드랑 본문이 자연스럽게 어우러지게 */
-#section-3, #section-4, #section-5 {
-  transition: background-color 0.3s ease;
-}
-
-#section-3 .card,
-#section-4 .card,
-#section-5 .card {
-  background-color: #ffffff !important; /* 카드 내부는 하얗게 */
+/* 🎨 프로젝트 카드 색상 */
+#section-3 .card {
+  background-color: #f8f9fa !important; /* 밝은 회색 (예: 베이지톤) */
   border-radius: 1rem;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* 🎨 관심분야 카드 색상 */
+#section-4 .card {
+  background-color: #fffaf0 !important; /* 크림빛 베이지 */
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* 🎨 취미 카드 색상 */
+#section-5 .card {
+  background-color: #f0f8ff !important; /* 아주 옅은 하늘색 */
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* 카드 hover 효과 (선택사항) */
+#section-3 .card:hover,
+#section-4 .card:hover,
+#section-5 .card:hover {
+  transform: translateY(-4px);
+  transition: 0.3s ease;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.1);
 }
