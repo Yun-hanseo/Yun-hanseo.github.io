@@ -88,3 +88,7 @@ I dream of integrating AI technology into aviation and space systems — develop
 Game Development is more than just writing code — I see it as a creative process of designing player experiences.
 I’m deeply interested in the entire development pipeline, including game design, graphics, and sound.
 Through development, I aim to create interactive worlds that engage players both emotionally and visually. 
+
+Therefore, my career goal is to become either a **game developer** or a **researcher in the aerospace field**.
+I aim to create **high-quality games** that provide players with enjoyment and engagement, while also contributing to the advancement of **aerospace technology** through research on **AI-based autonomous flight and space exploration systems**.
+Ultimately, my goal is to become a **developer who practically applies artificial intelligence** across both fields.
