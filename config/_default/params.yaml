@@ -35,13 +35,14 @@ header:
     enable: true
     block: 'navbar'
     show_logo: true
+    show_title: true
     show_language: false
     show_day_night: true
     show_search: true
     highlight_active_link: false
     logo:
-      text: YunPortfolio
-      filenmae: "assets/media/icon.png"
+      image: uploads/logo.png
+      width: 50
 
 
 # Site footer
