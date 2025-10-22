@@ -121,6 +121,7 @@ publications:
   date_format: January 2006
   citation_style: apa
 
-# css classes
+# scss classes
 custom_css:
   - custom.scss
+  - text_justify.css
