@@ -76,8 +76,16 @@
 /* 🌤 라이트모드 */
 /* 🌤 라이트모드에서만 배경 변경 */
 /* 🌤 라이트모드 (data-theme이 없을 때 적용) */
-body:not([data-theme="dark"]) {
+/* 🌤 기본(라이트모드) */
+body {
   background-color: #C9D6E2 !important;
+}
+
+/* 🌙 다크모드 — 시스템 설정 기준 */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1A2940 !important; /* 밝은 남색 */
+  }
 }
 
 
