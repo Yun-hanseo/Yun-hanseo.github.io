@@ -75,13 +75,13 @@ sections:
     design:
       css_class: "text-center py-10"
       background: 
-        color: "#F4F8FB"   
+        color: "#353739ff"   
 
   - block: collection
     content:
       id: section-3
       title: "프로젝트"
-      subtitle: 수행 프로젝트
+      subtitle: 
       count: 3
       offset: 0
       order: desc
@@ -94,7 +94,7 @@ sections:
       card:
         css_class: "beige-round-card"
       background: 
-        color: "#F4F8FB"
+        color: "#353739ff"
 
   - block: collection
     content:
@@ -111,7 +111,7 @@ sections:
       view: card
       columns: '3'
       background:
-        color: "#F4F8FB"
+        color: "#353739ff"
 
   - block: collection
     content:
@@ -128,5 +128,5 @@ sections:
       view: card
       columns: '3'
       background:
-        color: "#F4F8FB"
+        color: "#353739ff"
 ---

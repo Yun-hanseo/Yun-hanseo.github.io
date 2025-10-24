@@ -74,6 +74,8 @@ sections:
         </div>
     design:
       css_class: "text-center py-10"
+      background: 
+        color: "#353739ff"
 
   - block: collection
     content:
@@ -90,7 +92,7 @@ sections:
       view: card
       columns: '3'
       background: 
-        color: "#F4F8FB"
+        color: "#353739ff"
 
   - block: collection
     content:
@@ -107,7 +109,7 @@ sections:
       view: card
       columns: '3'
       background: 
-        color: "#F4F8FB"
+        color: "#353739ff"
 
   - block: collection
     content:
@@ -124,5 +126,5 @@ sections:
       view: card
       columns: '3'
       background: 
-        color: "#F4F8FB"
+        color: "#353739ff"
 ---
