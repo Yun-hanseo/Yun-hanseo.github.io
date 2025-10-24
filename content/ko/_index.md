@@ -75,8 +75,7 @@ sections:
     design:
       css_class: "text-center py-10"
       background: 
-        color_light: "#96caecff"
-        color_dark: "#353739ff"   
+        color: "#96caecff"   
 
   - block: collection
     content:
@@ -95,8 +94,7 @@ sections:
       card:
         css_class: "beige-round-card"
       background: 
-        color_light: "#96caecff"
-        color_dark: "#353739ff"
+        color: "#96caecff"
 
   - block: collection
     content:
@@ -112,9 +110,8 @@ sections:
     design:
       view: card
       columns: '3'
-      background:
-        color_light: "#96caecff"
-        color_dark: "#353739ff"
+      background: 
+        color: "#96caecff"
 
   - block: collection
     content:
@@ -130,7 +127,6 @@ sections:
     design:
       view: card
       columns: '3'
-      background:
-        color_light: "#96caecff"
-        color_dark: "#353739ff"
+      background: 
+        color: "#96caecff"
 ---

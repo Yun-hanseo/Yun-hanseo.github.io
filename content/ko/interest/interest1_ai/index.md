@@ -4,15 +4,13 @@ subtitle: ""
 date: 2025-10-13
 summary: ""
 type: interest
-layout: page
+layout: single
 show_author: false
 
 image:
   filename: welcome.jpg
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
-
-<div style="text-align: justify; text-justify: inter-word; line-height: 1.8; word-break: keep-all; hyphens: auto;">
 
 제 관심분야중 하나는 인공지능(AI)입니다.
 인간의 사고를 모방하고, 더 나아가 이를 확장할 수 있는 지능형 시스템을 구현하는 과정에 큰 관심을 가지고 있습니다. 
@@ -31,5 +29,5 @@ AI가 차량의 ‘눈’과 ‘두뇌’가 되어 스스로 판단하고 학�
 저는 이러한 혁신의 한가운데에서 AI 기반 이동체의 발전에 기여하고 싶습니다.
 
 궁극적으로는 AI가 교통, 물류, 도시 인프라 전반과 연계되어 사람들의 일상에 안전하고 효율적인 변화를 가져오는 미래를 만드는 것이 제 꿈입니다.
-</div>
+
 
