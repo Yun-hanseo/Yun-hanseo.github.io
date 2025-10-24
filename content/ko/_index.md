@@ -128,5 +128,5 @@ sections:
       view: card
       columns: '3'
       background: 
-        color: "#96caecff"
+        color: #E8F6FF
 ---

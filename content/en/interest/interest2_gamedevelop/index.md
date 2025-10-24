@@ -12,8 +12,6 @@ image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
-<div style="text-align: justify; text-justify: inter-word; line-height: 1.8; word-break: keep-all; hyphens: auto;">
-
 I have a deep passion for **software development**, especially **game development**.
 
 Beyond simply writing code, I’m fascinated by the process of creating **immersive and enjoyable experiences** centered around **user experience (UX)** — designing and implementing services that people can truly engage with and enjoy.
@@ -24,4 +22,3 @@ My goal is to manage the entire journey — from the birth of an idea to deliver
 Another goal of mine is to integrate **Artificial Intelligence (AI)** into game development, enabling more **intelligent** and **personalized** gameplay experiences.
 
 Ultimately, I want to become a developer who not only focuses on the technical completeness of a game but also creates joy, immersion, and memorable experiences for people.
-</div>
