@@ -19,8 +19,8 @@ image:
   하지만 저보다 그림을 잘 그리는 사람이 많기에 꿈을 포기할 수밖에 없었습니다.
 </div>
 
- <br><br>
- 
+<br><br>
+
 <div style="
   display: flex; 
   align-items: stretch; 
