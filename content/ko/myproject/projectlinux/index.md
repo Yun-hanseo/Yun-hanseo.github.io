@@ -19,8 +19,8 @@ links:
 
 
 ![계좌생성](hsprojects/accountcreate.png)
-**▲ 계좌 정보 확인**<br>
-계좌 정보 확인을위해 ID 입력 시, ID,이름,계좌정보를 출력
+**▲ 계좌 생성**<br>
+사용자가 ID, 이름, 계좌 정보를 입력하면, 해당 데이터가 데이터베이스에 저장된다.
 
 ![연산 테스트](hsprojects/accountcheck.png)
 **▲ 계좌 정보 확인**<br>
