@@ -1,7 +1,4 @@
-/* ================================
-   📂 Dropdown menu hover style
-   (Compatible with theme-research-group)
-================================ */
+// hover style
 
 /* 네비게이션 드롭다운 컨테이너 */
 .navbar-nav > li {
@@ -60,9 +57,8 @@
   transition: all 0.2s ease;
 }
 
-/* ================================================
-   🎨 Custom Styles for Navbar Logo (YunPortfolio)
-   ================================================ */
+
+// Navbar size 조정
 
 /* Navbar 로고 크기 조정 */
 .navbar-brand img {
@@ -71,33 +67,3 @@
   object-fit: contain;
 }
 
-
-/* 🎨 프로젝트 카드 색상 */
-#section-3 .card {
-  background-color: #f8f9fa !important; /* 밝은 회색 (예: 베이지톤) */
-  border-radius: 1rem;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-}
-
-/* 🎨 관심분야 카드 색상 */
-#section-4 .card {
-  background-color: #fffaf0 !important; /* 크림빛 베이지 */
-  border-radius: 1rem;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-}
-
-/* 🎨 취미 카드 색상 */
-#section-5 .card {
-  background-color: #f0f8ff !important; /* 아주 옅은 하늘색 */
-  border-radius: 1rem;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-}
-
-/* 카드 hover 효과 (선택사항) */
-#section-3 .card:hover,
-#section-4 .card:hover,
-#section-5 .card:hover {
-  transform: translateY(-4px);
-  transition: 0.3s ease;
-  box-shadow: 0 6px 14px rgba(0,0,0,0.1);
-}
