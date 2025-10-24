@@ -78,8 +78,8 @@ sections:
   - block: collection
     content:
       id: section-3
-      title: 프로젝트
-      subtitle:
+      title: "프로젝트"
+      subtitle: 수행 프로젝트
       title:
       count: 3
       offset: 0
@@ -91,13 +91,13 @@ sections:
       view: card
       columns: '3'
       background: 
-        color: "#000000"
+        color: "#fffaf3"
 
   - block: collection
     content:
       id: section-4
       title: 관심분야
-      subtitle:
+      subtitle: 
       title:
       count: 3
       offset: 0
