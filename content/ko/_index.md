@@ -111,7 +111,7 @@ sections:
       view: card
       columns: '3'
       background: 
-        color: "#96caecff"
+        color: "#8eafc5ff"
 
   - block: collection
     content:
