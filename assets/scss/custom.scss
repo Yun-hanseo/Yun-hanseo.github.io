@@ -81,7 +81,9 @@ body {
 /* 🌙 다크모드 */
 html[data-theme="dark"],
 html[data-theme="dark"] body,
-html[data-theme="dark"] .page-wrapper {
+html[data-theme="dark"] .page-wrapper,
+html[data-theme="dark"] .page-body,
+html[data-theme="dark"] .article-container {
   background-color: #1A2940 !important; /* 밝은 남색 */
 }
 
