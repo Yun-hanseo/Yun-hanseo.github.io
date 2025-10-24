@@ -75,6 +75,8 @@ highlight_name: true
 
 ---
 
+
+<div style="text-align: justify; text-justify: inter-word; line-height: 1.8; word-break: keep-all; hyphens: auto;">
 I’m **Hanseo Yun**, a sophomore majoring in **Computer Science and Artificial Intelligence** at **Jeonbuk National University (JBNU)**.  
 Beyond simple curiosity, I’m deeply passionate about **Artificial Intelligence, Aerospace, and Software Development**.
 
@@ -92,3 +94,4 @@ Through development, I aim to create interactive worlds that engage players both
 Therefore, my career goal is to become either a **game developer** or a **researcher in the aerospace field**.
 I aim to create **high-quality games** that provide players with enjoyment and engagement, while also contributing to the advancement of **aerospace technology** through research on **AI-based autonomous flight and space exploration systems**.
 Ultimately, my goal is to become a **developer who practically applies artificial intelligence** across both fields.
+</div>
