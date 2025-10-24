@@ -4,7 +4,7 @@ subtitle: ""
 date: 2025-10-13
 summary: ""
 type: interest
-layout: single
+layout: page
 show_author: false
 
 image:
