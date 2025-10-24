@@ -17,9 +17,10 @@ links:
     url: https://github.com/Yun-hanseo/Linux-menu
 ---
 
-![계산기 초기 화면](hsprojects/accountcreat.png)
-**▲ 계좌 만들기**<br>
-사용자가 ID,이름,계좌정보를 입력시 입력한 내용대로 데이터베이스에 저장
+
+![계좌생성](hsprojects/accountcreate.png)
+**▲ 계좌 정보 확인**<br>
+계좌 정보 확인을위해 ID 입력 시, ID,이름,계좌정보를 출력
 
 ![연산 테스트](hsprojects/accountcheck.png)
 **▲ 계좌 정보 확인**<br>
