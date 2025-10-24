@@ -74,17 +74,9 @@
 
 /* 🌤 라이트모드 (그대로 유지) */
 /* 🌤 라이트모드 */
-body {
+/* 🌤 라이트모드에서만 배경 변경 */
+html[data-theme="light"] body {
   background-color: #C9D6E2 !important;
-}
-
-/* 🌙 다크모드 */
-html[data-theme="dark"],
-html[data-theme="dark"] body,
-html[data-theme="dark"] .page-wrapper,
-html[data-theme="dark"] .page-body,
-html[data-theme="dark"] .article-container {
-  background-color: #1A2940 !important; /* 밝은 남색 */
 }
 
 
