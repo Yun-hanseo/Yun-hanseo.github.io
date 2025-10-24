@@ -77,8 +77,12 @@ body {
   transition: background-color 0.4s ease; /* 부드럽게 전환 */
 }
 
-/* 💡 다크모드 대응 (optional) */
+/* 🌙 다크모드 */
+[data-theme="dark"] {
+  background-color: #0F1116 !important; /* 완전한 어두운 남색 계열 */
+}
+
 [data-theme="dark"] body {
-  background-color: #1e1e2f !important; /* 어두운 밤하늘 톤 */
+  background-color: #0F1116 !important; /* 동일하게 유지 */
 }
 
