@@ -67,35 +67,3 @@
   object-fit: contain;
 }
 
-
-/* 🌙 섹션 제목 (프로젝트) — 밝기 모드별 대응 */
-#section-3 {
-  text-align: center;
-
-  h1, h2, h3 {
-    font-size: 2.4rem;
-    font-weight: 700;
-    margin-bottom: 0.4rem;
-    color: var(--color-text); // ✅ 테마의 기본 텍스트 색 사용
-    transition: color 0.3s ease;
-  }
-
-  p.subtitle {
-    font-size: 1.2rem;
-    margin-bottom: 1.5rem;
-    color: var(--color-muted); // ✅ 다크모드에서도 자동으로 조정됨
-    transition: color 0.3s ease;
-  }
-
-  /* 🌙 야간 모드에서만 살짝 밝게 */
-  [data-theme="dark"] & {
-    h1, h2, h3 {
-      color: #f5f5f5 !important; // ✅ 밝은 텍스트
-    }
-
-    p.subtitle {
-      color: #d1d1d1 !important;
-    }
-  }
-}
-
