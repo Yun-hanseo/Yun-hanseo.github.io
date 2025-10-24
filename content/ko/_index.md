@@ -73,7 +73,9 @@ sections:
           </a>
         </div>
     design:
-      css_class: "text-center py-10"   
+      css_class: "text-center py-10"
+      background: 
+        color: "#F4F8FB"   
 
   - block: collection
     content:

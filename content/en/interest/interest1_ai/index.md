@@ -11,6 +11,7 @@ image:
   filename: welcome.jpg
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
+
 <div style="text-align: justify; text-justify: inter-word; line-height: 1.8; word-break: keep-all; hyphens: auto;">
 One of my main areas of interest is **Artificial Intelligence (AI)**.  
 I’m deeply fascinated by the process of designing intelligent systems that not only mimic human thinking but also extend beyond it.

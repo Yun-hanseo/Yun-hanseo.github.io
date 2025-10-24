@@ -11,6 +11,7 @@ image:
   filename: coders.jpg
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
+
 <div style="text-align: justify; text-justify: inter-word; line-height: 1.8; word-break: keep-all; hyphens: auto;">
 I have a deep passion for **software development**, especially **game development**.
 
