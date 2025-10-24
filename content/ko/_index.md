@@ -92,6 +92,8 @@ sections:
     design:
       view: card
       columns: '3'
+      card:
+        css_class: "beige-round-card"
       background: 
         color: "#F4F8FB"
 
