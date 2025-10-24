@@ -87,37 +87,3 @@ body.dark {
 }
 
 
-
-
-/* =========================================
-   🃏 Custom Card Style - 둥근 모서리 카드
-   ========================================= */
-
-/* =========================================
-   🃏 둥근 모서리 + 호버 효과 커스텀 카드
-   ========================================= */
-
-.block[data-view="card"] .card {
-  border-radius: 16px;                  /* 🔹 모서리 둥글게 */
-  background-color: #ffffff;            /* 🔹 카드 배경 */
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); /* 🔹 은은한 그림자 */
-  overflow: hidden;                     /* 🔹 내부 콘텐츠 넘침 방지 */
-  transition: all 0.25s ease;           /* 🔹 부드러운 애니메이션 */
-  border: 1px solid rgba(0, 0, 0, 0.05); /* 🔹 테두리 */
-}
-
-/* 💫 마우스 오버 시: 살짝 뜨고 그림자 강조 */
-.block[data-view="card"] .card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
-  border-color: rgba(0, 0, 0, 0.08);
-}
-
-/* ✏️ 카드 내부 텍스트 정돈 */
-.block[data-view="card"] .card-body {
-  padding: 1.2rem;
-  text-align: center;
-  border-radius: inherit; /* 내부도 둥글게 */
-}
-
-
