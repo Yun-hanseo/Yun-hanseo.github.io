@@ -78,8 +78,8 @@ sections:
   - block: collection
     content:
       id: section-3
-      title: Project
-      subtitle:
+      title: "Projects"
+      subtitle: 
       count: 3
       offset: 0
       order: desc
@@ -87,7 +87,7 @@ sections:
         folders:
           - myproject
     design:
-      view: card
+      view: project-card
       columns: '3'
 
   - block: collection
@@ -102,7 +102,7 @@ sections:
         folders:
           - interest
     design:
-      view: card
+      view: gird
       columns: '3'
 
   - block: collection
