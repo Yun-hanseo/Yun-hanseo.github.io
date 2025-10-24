@@ -11,8 +11,6 @@ image:
   filename: coders.jpg
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
-
-
 <div style="text-align: justify; text-justify: inter-word; line-height: 1.8; word-break: keep-all; hyphens: auto;">
 저는 소프트웨어 개발(Development),특히 게임 개발 분야에 깊은 열정을 가지고 있습니다. 
 

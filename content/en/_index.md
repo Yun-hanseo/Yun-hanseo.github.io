@@ -90,6 +90,8 @@ sections:
     design:
       view: card
       columns: '3'
+      background: 
+        color: "#F4F8FB"
 
   - block: collection
     content:
@@ -106,6 +108,8 @@ sections:
     design:
       view: card
       columns: '3'
+      background: 
+        color: "#F4F8FB"
 
   - block: collection
     content:
@@ -122,4 +126,6 @@ sections:
     design:
       view: card
       columns: '3'
+      background: 
+        color: "#F4F8FB"
 ---

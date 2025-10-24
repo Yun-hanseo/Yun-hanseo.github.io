@@ -11,8 +11,6 @@ image:
   filename: contact.jpg
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
-
-
 <div style="text-align: justify; text-justify: inter-word; line-height: 1.8; word-break: keep-all; hyphens: auto;">
 I believe that **aerospace** is the field that best embodies humanity’s spirit of challenge — the drive to push beyond technological limits and explore new worlds.
 
