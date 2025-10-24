@@ -82,7 +82,6 @@ sections:
       id: section-3
       title: "프로젝트"
       subtitle: 수행 프로젝트
-      title:
       count: 3
       offset: 0
       order: desc
@@ -102,7 +101,6 @@ sections:
       id: section-4
       title: 관심분야
       subtitle: 
-      title:
       count: 3
       offset: 0
       order: desc
@@ -120,7 +118,6 @@ sections:
       id: section-5
       title: 취미
       subtitle:
-      title:
       count: 3
       offset: 0
       order: desc

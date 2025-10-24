@@ -80,7 +80,6 @@ sections:
       id: section-3
       title: Project
       subtitle:
-      title:
       count: 3
       offset: 0
       order: desc
@@ -98,7 +97,6 @@ sections:
       id: section-4
       title: Interest
       subtitle:
-      title:
       count: 3
       offset: 0
       order: desc
@@ -116,7 +114,6 @@ sections:
       id: section-5
       title: Hobby
       subtitle:
-      title:
       count: 3
       offset: 0
       order: desc
