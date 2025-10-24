@@ -6,6 +6,10 @@ summary: ""
 type: like
 layout: single
 show_author: false
+
+image:
+  filename: drawintro.jpg
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
 <div style="
