@@ -87,7 +87,7 @@ sections:
         folders:
           - myproject
     design:
-      view: card
+      view: project-card
       columns: '3'
 
   - block: collection
@@ -119,5 +119,4 @@ sections:
     design:
       view: card
       columns: '3'
-
 ---
