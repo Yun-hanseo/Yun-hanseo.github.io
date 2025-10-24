@@ -77,5 +77,9 @@ body {
   background-color: #C9D6E2 !important;
 }
 
+html[data-theme="dark"] body {
+  background-color: #1A2940 !important; /* 밝은 남색 */
+}
+
 
 
