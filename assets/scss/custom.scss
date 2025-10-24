@@ -87,3 +87,15 @@ body.dark {
 }
 
 
+#section-3 .card {
+  border-radius: 16px;               /* 둥근 모서리 */
+  background-color: #E8F0FE;         /* 💡 은은한 블루톤 카드 배경 */
+  border: 1px solid rgba(0, 0, 0, 0.05); /* 테두리 살짝 */
+  overflow: hidden;                  /* 내용이 튀어나오지 않게 */
+}
+
+/* ✏️ 카드 내부 여백 & 정렬 */
+#section-3 .card-body {
+  padding: 1.2rem;
+  text-align: center;
+}
