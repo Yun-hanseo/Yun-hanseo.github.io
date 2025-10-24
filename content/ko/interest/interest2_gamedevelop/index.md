@@ -13,6 +13,7 @@ image:
 ---
 
 <div style="text-align: justify; text-justify: inter-word; line-height: 1.8; word-break: keep-all; hyphens: auto;">
+
 저는 소프트웨어 개발(Development),특히 게임 개발 분야에 깊은 열정을 가지고 있습니다. 
 
 단순히 코드를 작성하는 것을 넘어, 사용자의 경험(UX) 을 중심에 두고, 사람이 즐기고 몰입할 수 있는 경험을 만드는 과정, 더 나은 서비스를 설계하고 구현하는 과정에 큰 흥미를 느낍니다. 

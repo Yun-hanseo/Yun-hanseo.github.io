@@ -13,6 +13,7 @@ image:
 ---
 
 <div style="text-align: justify; text-justify: inter-word; line-height: 1.8; word-break: keep-all; hyphens: auto;">
+
 One of my main areas of interest is **Artificial Intelligence (AI)**.  
 I’m deeply fascinated by the process of designing intelligent systems that not only mimic human thinking but also extend beyond it.
 
@@ -26,4 +27,5 @@ I view autonomous driving not merely as a technological challenge but as a revol
 I aspire to be at the center of this innovation — contributing to the advancement of AI-driven mobility systems.
 
 Ultimately, my dream is to help build a future where AI seamlessly connects with transportation, logistics, and urban infrastructure to bring safer and more efficient changes to people’s everyday lives.
+
 </div>

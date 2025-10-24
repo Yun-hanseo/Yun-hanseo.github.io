@@ -13,6 +13,7 @@ image:
 ---
 
 <div style="text-align: justify; text-justify: inter-word; line-height: 1.8; word-break: keep-all; hyphens: auto;">
+
 I have a deep passion for **software development**, especially **game development**.
 
 Beyond simply writing code, I’m fascinated by the process of creating **immersive and enjoyable experiences** centered around **user experience (UX)** — designing and implementing services that people can truly engage with and enjoy.

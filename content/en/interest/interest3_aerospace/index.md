@@ -13,6 +13,7 @@ image:
 ---
 
 <div style="text-align: justify; text-justify: inter-word; line-height: 1.8; word-break: keep-all; hyphens: auto;">
+
 I believe that **aerospace** is the field that best embodies humanity’s spirit of challenge — the drive to push beyond technological limits and explore new worlds.
 
 I aim to combine this spirit with **Artificial Intelligence (AI)** to conduct forward-looking research in areas such as **autonomous flight systems**, **space exploration automation**, and **aerospace data analysis**.

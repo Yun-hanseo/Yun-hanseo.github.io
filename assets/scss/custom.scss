@@ -67,3 +67,22 @@
   object-fit: contain;
 }
 
+
+/* 🌟 섹션 제목 가운데 정렬 + 크기 조정 */
+#section-3 {
+  text-align: center; // ✅ 섹션 안의 모든 텍스트 가운데 정렬
+
+  h1, h2, h3 {
+    text-align: center; // ✅ 제목만 확실히 가운데로
+    font-size: 2.2rem;  // ✅ 글자 크게 (기본 1.5~1.8rem 정도)
+    font-weight: 700;   // ✅ 굵게 강조
+    margin-bottom: 0.4rem;
+  }
+
+  p.subtitle {
+    text-align: center; // ✅ 부제목도 가운데 정렬
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+}
