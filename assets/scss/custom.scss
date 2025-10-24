@@ -78,11 +78,7 @@ body {
 }
 
 /* 🌙 다크모드 */
-[data-theme="dark"] {
-  background-color: #0F1116 !important; /* 완전한 어두운 남색 계열 */
-}
-
-[data-theme="dark"] body {
-  background-color: #0F1116 !important; /* 동일하게 유지 */
+html[data-theme="dark"] body {
+  background-color: #0F1116 !important;
 }
 
