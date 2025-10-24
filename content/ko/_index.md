@@ -90,6 +90,8 @@ sections:
     design:
       view: card
       columns: '3'
+      background: 
+        color: "#000000"
 
   - block: collection
     content:

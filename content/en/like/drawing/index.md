@@ -14,8 +14,8 @@ show_author: false
 I have loved drawing ever since I was a child — my dream back then was to become a painter.
 I especially enjoyed looking at book covers or existing illustrations and drawing them myself.
 However, as I grew older, I realized there were many people who could draw much better than I could, and I had no choice but to give up my dream of becoming a painter.
-
+<br>
 Although I don’t draw as often these days, I still used to draw from time to time throughout middle and high school.
-
+<br>
 When I draw, time seems to pass quickly, and I really enjoy being able to focus entirely on the work without any distracting thoughts.
 </div>
