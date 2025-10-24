@@ -75,7 +75,7 @@ sections:
     design:
       css_class: "text-center py-10"
       background: 
-        color: "#96caecff"   
+        color: "#a0babcff"   
 
   - block: collection
     content:
@@ -94,7 +94,7 @@ sections:
       card:
         css_class: "beige-round-card"
       background: 
-        color: "#96caecff"
+        color: "#a0babcff"
 
   - block: collection
     content:
@@ -111,7 +111,7 @@ sections:
       view: card
       columns: '3'
       background: 
-        color: "#8eafc5ff"
+        color: "#a0babcff"
 
   - block: collection
     content:
@@ -128,5 +128,5 @@ sections:
       view: card
       columns: '3'
       background: 
-        color: #E8F6FF
+        color: "#a0babcff"
 ---
