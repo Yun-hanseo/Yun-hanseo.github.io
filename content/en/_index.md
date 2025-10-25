@@ -60,17 +60,15 @@ sections:
     content:
       title: ""
       text: |
-        <div style="font-size:115%; text-align:center;">
+        <div style="text-align: justify; text-justify: inter-word; line-height: 1.8; word-break: keep-all; hyphens: auto;">
           Hello 😊
           <b>Jeonbuk National University, School of Computer Science and Artificial Intelligence</b> 🎓
 
           I’m Hanseo Yun, a sophomore majoring in Computer Science and Artificial Intelligence at Jeonbuk National University.
           I have a deep passion for Artificial Intelligence (AI), Aerospace, and Game Development.
-
           Through AI, I aim to design intelligent systems that mimic and extend human thinking,
           and ultimately contribute to the advancement of autonomous flight and space exploration technologies.
           In addition, I aspire to create immersive and creative experiences through game development.
-
           My ultimate goal is to become a developer who applies AI technology in real-world fields to make meaningful innovations. ✨
         </div>
 
