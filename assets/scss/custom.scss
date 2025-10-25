@@ -71,24 +71,7 @@
 /* ==========================================
    🌤 전체 페이지 배경색 설정 (연한 하늘색)
    ========================================== */
-/* 🌤 라이트모드 기본 */
-/* 🌤 라이트모드 */
-body {
-  background-color: #C9D6E2 !important;
-}
+/* landing 전용 페이지 배경색 강제 통일 */
 
-/* 🌙 다크모드 */
-body.dark {
-  background-color: #1A2940 !important;
-}
 
-.block {
-  background-color: transparent !important;
-}
-
-.article-style p {
-  text-align: justify;
-  text-justify: inter-word;
-  line-height: 1.8;
-}
 

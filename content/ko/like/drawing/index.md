@@ -12,7 +12,7 @@ image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
-<div style="text-align: justify; text-justify: inter-word; line-height: 1.8;">
+<div style="font-size:100%; text-align:justify;">
   저는 어렸을 때부터 꿈이 화가였을 정도로 그림 그리는 것을 좋아했습니다. 
   최근에는 그림을 잘 그리지는 않지만 초등학교, 중학교, 고등학교 때는 틈틈이 시간이 나면 항상 그림을 그렸습니다. 
   그림을 그리다 보면 몇 시간씩 훌쩍 지나가 버려, 잡생각 없이 온전히 그림에 집중할 수 있어서 좋았습니다.<br>

@@ -12,7 +12,7 @@ image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
-<div style="text-align: justify; text-justify: inter-word; line-height: 1.8; word-break: keep-all; hyphens: auto;">
+<div style="font-size:100%; text-align:justify;">
   사진 촬영은 제게 단순한 취미를 넘어 일상의 감정을 기록하는 하나의 표현 방식입니다.
   특히 자연과 도시의 분위기를 활용해 따뜻하면서도 감성적인 이미지를 담는 것을 좋아합니다.<br><br>
   자연 중에서도 특히 바다 사진을 찍는 것을 좋아합니다. 제 본가가 부산이라 많은 바다를 볼 수 있는데 

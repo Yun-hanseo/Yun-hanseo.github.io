@@ -61,15 +61,24 @@ sections:
       title: ""
       text: |
         <div style="font-size:115%; text-align:center;">
-          Hello 😊 I'm **Hanseo Yun**, a sophomore majoring in Computer Science and Artificial Intelligence at **Jeonbuk National University**.  
-        I'm deeply fascinated by Artificial Intelligence, Aerospace, and Game Development, and I’m constantly exploring new ideas in these fields! ✨
+          Hello 😊
+          <b>Jeonbuk National University, School of Computer Science and Artificial Intelligence</b> 🎓
+
+          I’m Hanseo Yun, a sophomore majoring in Computer Science and Artificial Intelligence at Jeonbuk National University.
+          I have a deep passion for Artificial Intelligence (AI), Aerospace, and Game Development.
+
+          Through AI, I aim to design intelligent systems that mimic and extend human thinking,
+          and ultimately contribute to the advancement of autonomous flight and space exploration technologies.
+          In addition, I aspire to create immersive and creative experiences through game development.
+
+          My ultimate goal is to become a developer who applies AI technology in real-world fields to make meaningful innovations. ✨
         </div>
 
         <div style="text-align:center; margin-top:20px;">
           <a href="/files/resume.pdf" 
              target="_blank" 
              style="display:inline-block; background-color:#007BFF; color:white; padding:10px 20px; border-radius:8px; text-decoration:none; font-weight:600;">
-             {{< icon name="download" pack="fas" >}} 이력서 다운로드 (PDF)
+             {{< icon name="download" pack="fas" >}} Download Resume (PDF)
           </a>
         </div>
     design:

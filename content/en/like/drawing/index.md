@@ -12,7 +12,7 @@ image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
-<div style="text-align: justify; text-justify: inter-word; line-height: 1.8;">
+<div style="font-size:100%; text-align:justify;">
   Ever since I was young, I’ve loved drawing so much that I once dreamed of becoming an artist.  
   Although I don’t draw as often these days, during elementary, middle, and high school I would always draw whenever I had free time.  
   When I draw, hours pass by in the blink of an eye — I can fully concentrate on it without any distractions.<br>

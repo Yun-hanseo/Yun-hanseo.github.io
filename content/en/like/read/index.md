@@ -12,7 +12,7 @@ image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
-<div style="text-align: justify; text-justify: inter-word; line-height: 1.8; word-break: keep-all; hyphens: auto;">
+<div style="font-size:100%; text-align:justify;">
   I didn’t enjoy reading much when I was younger, but as time went by, I came to realize the importance of reading and gradually developed the habit of picking up books.  
   At first, even reading for ten minutes felt difficult, but over time, I became accustomed to it — ten minutes turned into thirty, and eventually an hour or more.<br>
   Reading allows me to clear my mind, immerse myself in the story, and visualize what I’m reading in my head.  

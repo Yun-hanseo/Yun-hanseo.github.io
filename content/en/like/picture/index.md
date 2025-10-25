@@ -12,7 +12,7 @@ image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
-<div style="text-align: justify; text-justify: inter-word; line-height: 1.8; word-break: keep-all; hyphens: auto;">
+<div style="font-size:100%; text-align:justify;">
   Photography is more than just a hobby for me — it’s a way to express and record emotions in everyday life.  
   I especially enjoy capturing warm and emotional images that blend the atmosphere of nature and the city.<br><br>
   Among all subjects, I’m particularly drawn to photographing the ocean. Since I’m from Busan, I often get to see the sea,  
