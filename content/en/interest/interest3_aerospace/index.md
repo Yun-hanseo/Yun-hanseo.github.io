@@ -21,4 +21,3 @@ into an **intelligent system capable of learning and making decisions independen
 
 Ultimately, I aspire to contribute to the **fusion of AI and aerospace technology**,  
 laying the foundation for humanity to reach farther into the universe and explore a broader future.
-</div>
